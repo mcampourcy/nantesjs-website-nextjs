@@ -7,7 +7,7 @@ export async function generateMetadata ({ params }) {
     const postData = await getPostData(params.id)
 
     return {
-        'title': postData.title
+        title: postData.title
     }
 
 }
@@ -22,7 +22,7 @@ export default async function Post ({ params }) {
             <h1>{postData.title}</h1>
 
             <div
-                dangerouslySetInnerHTML={{ '__html': postData.contentHtml }}
+                dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
             />
         </>
     )
