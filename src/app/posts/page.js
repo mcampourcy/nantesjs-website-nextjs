@@ -2,7 +2,6 @@ import Link from 'next/link'
 import { getSortedPostsData } from '@/lib/posts'
 
 export default async function Page () {
-
     const posts = await getSortedPostsData()
 
     return (
@@ -12,7 +11,6 @@ export default async function Page () {
             <h2>All posts:</h2>
             <ul>
                 {posts.map((post) => {
-
                     const { id, date, title } = post
                     return (
                         <li key={id}>
@@ -21,10 +19,8 @@ export default async function Page () {
                             </Link>
                         </li>
                     )
-
                 })}
             </ul>
         </div>
     )
-
 }
