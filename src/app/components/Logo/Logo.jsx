@@ -1,7 +1,6 @@
 import Image from 'next/image'
 
 export function Logo () {
-
     return (
         <Image
             src="/nantesjs-logo.svg"
@@ -11,5 +10,4 @@ export function Logo () {
             className='logo'
         />
     )
-
 }

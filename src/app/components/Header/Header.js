@@ -3,7 +3,6 @@ import './Header.css'
 import Link from 'next/link'
 
 export function Header () {
-
     return (
         <header>
             <section>
@@ -14,5 +13,4 @@ export function Header () {
             </section>
         </header>
     )
-
 }
