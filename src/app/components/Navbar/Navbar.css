@@ -12,13 +12,11 @@ nav > ul {
 nav > ul > li > a {
     align-items: center;
     border-bottom: 3px solid transparent;
-    color: var(--color-yellow-nantesjs);
+    border-top: 3px solid transparent;
     display: flex;
-    font-family: var(--font-title);
-    font-size: 18px;
     padding: 0.5rem;
-    text-decoration: none;
 }
+
 nav > ul > li:not(.cfp-link) {
     margin-right: 20px;
 }
@@ -33,7 +31,7 @@ nav ul > li:not(.cfp-link) > a.active {
 
 nav > ul > li:not(.cfp-link) > a.active,
 nav > ul > li:not(.cfp-link) > a:hover {
-    border-color: var(--color-yellow-nantesjs);
+    border-bottom-color: var(--color-yellow-nantesjs);
     transition: border-color ease 500ms;
 }
 
@@ -41,14 +39,13 @@ nav > ul > li:not(.cfp-link) > a:hover {
 
 nav > ul > li.cfp-link > a {
     background-color: var(--color-yellow-nantesjs);
-    /*border: 3px solid var(--color-yellow-nantesjs);*/
+    border-bottom-color: var(--color-yellow-nantesjs);
     color: var(--color-dark-grey);
     transition: all ease 500ms;
 }
 
 nav > ul > li.cfp-link > a:hover {
     background-color: transparent;
-    border-color: var(--color-yellow-nantesjs);
     color: var(--color-yellow-nantesjs);
     transition: all ease 500ms;
 }
