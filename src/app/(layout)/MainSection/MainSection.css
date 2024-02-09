@@ -1,0 +1,5 @@
+.main-section {
+    display: flex;
+    max-width: 100%;
+    width: 980px;
+}

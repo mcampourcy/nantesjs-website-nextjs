@@ -1,6 +1,8 @@
 import Link from 'next/link'
-import { Logo, Navbar, SocialLink } from '@/app/components'
-import { socialLinks } from '@/app/(layout)/utils'
+import { Logo } from '@/app/components'
+import { Navbar } from './Navbar'
+import { socialLinksList } from './SocialLink/socialLinksList.js'
+import { SocialLink } from './SocialLink'
 import './Header.css'
 
 export function Header () {
@@ -12,7 +14,7 @@ export function Header () {
                 </Link>
                 <div className="navbar-group">
                     <div className="navbar-social">
-                        {socialLinks.map((link) => (
+                        {socialLinksList.map((link) => (
                             <SocialLink key={link.label} href={link.href} label={link.label} icon={link.icon} />
                         ))}
                     </div>
