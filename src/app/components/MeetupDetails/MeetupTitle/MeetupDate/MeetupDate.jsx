@@ -1,17 +1,21 @@
+import { format, getDate, getYear } from 'date-fns'
 import './MeetupDate.css'
 
 /**
  * MeetupDate is a functional component that displays the date of a meetup
  */
 
-export function MeetupDate () {
+export function MeetupDate ({ date }) {
+    const formattedDate = format(date, 'yyyy-MM-dd')
+    const formattedMonth = format(date, 'MMM.')
+
     return (
-        <time className="meetup-date" dateTime="2024-01-18">
+        <time className="meetup-date" dateTime={formattedDate}>
             <span>
-                <span className="day">18</span>
-                <span className="month">janv.</span>
+                <span className="day">{getDate(date)}</span>
+                <span className="month">{formattedMonth}</span>
             </span>
-            <span className="year">2024</span>
+            <span className="year">{getYear(date)}</span>
         </time>
     )
 }

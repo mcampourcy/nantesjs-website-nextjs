@@ -1,4 +1,4 @@
-import { getPostData } from '@/lib/posts'
+import { getPostData } from '@/lib/meetups.js'
 
 // Set the title of the page to be the post title, note that we no longer use
 // e.g. next/head in app dir, and this can be async just like the server

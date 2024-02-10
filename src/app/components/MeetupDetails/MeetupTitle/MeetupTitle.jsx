@@ -8,23 +8,23 @@ import './MeetupTitle.css'
  *
  * This component displays the meetup's logo, title, sponsor and host details, and the date.
  */
-export function MeetupTitle () {
+export function MeetupTitle ({ date, image, title, sponsor, host }) {
     return (
         <MainSection className="meetup-title">
             <Image
-                src="/meetup-images/accessibility.png"
+                src={image}
                 alt="Logo accessibilité"
                 width={100}
                 height={100}
             />
 
             <section>
-                <h1>Meetup #77</h1>
-                <p>Sponsorisé par <strong>NantesJS</strong></p>
-                <p>Hébergé par <strong>Epitech</strong></p>
+                <h1>{title}</h1>
+                <p>Sponsorisé par <strong>{sponsor}</strong></p>
+                <p>Hébergé par <strong>{host}</strong></p>
             </section>
 
-            <MeetupDate />
+            <MeetupDate date={date} />
         </MainSection>
     )
 }
