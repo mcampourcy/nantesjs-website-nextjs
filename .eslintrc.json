@@ -4,6 +4,7 @@
     "plugin:@stylistic/all-extends"
   ],
   "rules": {
+    "@stylistic/dot-location": ["error", "property"],
     "@stylistic/function-call-argument-newline": ["error", "never"],
     "@stylistic/jsx-first-prop-new-line": ["error", "multiline"],
     "@stylistic/max-len": ["error", { "code": 120 }],

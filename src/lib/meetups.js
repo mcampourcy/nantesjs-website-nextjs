@@ -4,27 +4,25 @@ import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
 
-const postsDirectory = path.join(process.cwd(), 'src/posts')
+const meetupsDirectory = path.join(process.cwd(), 'src/data/meetups')
 // process.cwd() returns the absolute path of the current working directory
 
-export function getSortedPostsData () {
-    const fileNames = fs.readdirSync(postsDirectory) // [ 'pre-rendering.md', 'ssg-ssr.md' ]
+export function getSortedMeetupsByYear ({ year }) {
+    const fileNames = fs.readdirSync(meetupsDirectory) // [ 'pre-rendering.md', 'ssg-ssr.md' ]
 
-    const allPostsData = fileNames.map((filename) => {
+    const allMeetupsData = fileNames.map((filename) => {
         const id = filename.replace(/\.md$/, '') // id = 'pre-rendering', 'ssg-ssr'
 
-        const fullPath = path.join(postsDirectory, filename)
+        const fullPath = path.join(meetupsDirectory, filename)
         const fileContents = fs.readFileSync(fullPath, 'utf8') // .md string content
 
         const matterResult = matter(fileContents)
+        const meetupData = { id, ...matterResult.data }
 
-        return {
-            id,
-            ...matterResult.data
-        }
+        return meetupData
     })
 
-    return allPostsData.sort((a, b) => {
+    return allMeetupsData.sort((a, b) => {
         if (a.date < b.date) {
             return 1
         } else {
@@ -33,8 +31,8 @@ export function getSortedPostsData () {
     })
 }
 
-export async function getPostData (id) {
-    const fullPath = path.join(postsDirectory, `${id}.md`)
+export async function getMeetupData (id) {
+    const fullPath = path.join(meetupsDirectory, `${id}.md`)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
 
     const matterResult = matter(fileContents)
