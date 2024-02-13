@@ -1,39 +1,40 @@
-import { getYear, parse } from 'date-fns'
-import { getFilesData } from '@/lib/utils/index.js'
-import { MEETUPS_DIRECTORY } from '@/lib/utils/constants.js'
+import { getYear, parse, isValid } from 'date-fns'
+import { fr } from 'date-fns/locale'
+import matter from 'gray-matter'
+import { parseFilesInDirectory, readFileFromDirectory } from '../lib/utils'
+import { MEETUPS_DIRECTORY } from '../lib/utils/constants'
 
-const parseMeetupDate = (date) => parse(date, 'dd/MM/yyyy', new Date())
+const parseMeetupDate = (dateString) => {
+    const date = parse(dateString, 'dd/MM/yyyy', new Date(), { locale: fr })
 
-export async function getSortedMeetupListByYear (year) {
+    return isValid(date) ? date : null
+}
+
+export function getSortedMeetupListByYear (year) {
     const currentYear = year || new Date().getFullYear()
+    const allFilesData = parseFilesInDirectory({ directory: MEETUPS_DIRECTORY })
 
-    const allFilesData = getFilesData({ directory: MEETUPS_DIRECTORY })
-
-    const meetupList = allFilesData.map((meetup) => ({
-        ...meetup,
-        date: parseMeetupDate(meetup.date)
-    }))
-
-    return meetupList
+    return allFilesData
+        .map((meetup) => ({
+            ...meetup,
+            date: parseMeetupDate(meetup.date)
+        }))
         .filter((meetup) => meetup.date && getYear(meetup.date) === currentYear)
         .sort((a, b) => b.date - a.date)
 }
 
 
-// export async function getMeetupData (id) {
-//     const fullPath = path.join(meetupsDirectory, `${id}.md`)
-//     const fileContents = fs.readFileSync(fullPath, 'utf8')
-//
-//     const matterResult = matter(fileContents)
-//
-//     const processedContent = await remark().
-//         use(html).
-//         process(matterResult.content)
-//     const contentHtml = processedContent.toString()
-//
-//     return {
-//         id,
-//         contentHtml,
-//         ...matterResult.data
-//     }
-// }
+export async function getMeetupData (id) {
+    const fileContents = readFileFromDirectory({
+        directory: MEETUPS_DIRECTORY,
+        filename: `meetup-${id}.md`
+    })
+
+    const matterResult = matter(fileContents)
+
+    return {
+        id,
+        ...matterResult.data,
+        date: parseMeetupDate(matterResult.data.date)
+    }
+}

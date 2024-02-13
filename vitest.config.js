@@ -1,3 +1,4 @@
+import { resolve } from 'path'
 import { defineConfig } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 
@@ -6,7 +7,9 @@ export default defineConfig({
     test: {
         environment: 'jsdom',
         globals: true,
-        include: ['**/*.test.js|x'],
-        setupFiles: ['./tests/setup.js']
+        setupFiles: ['./tests/setup.js'],
+        alias: {
+            '@/*': ['./src/*']
+        }
     }
 })

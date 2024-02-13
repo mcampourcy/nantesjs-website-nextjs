@@ -1,4 +1,4 @@
-import { Header } from '@/app/(layout)/Header'
+import { Header } from '@/app/(layout)'
 import { firaSans, montserrat } from './fonts'
 import './globals.css'
 

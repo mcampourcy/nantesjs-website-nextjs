@@ -1,13 +1,13 @@
 import { MeetupDetails } from '@/app/components'
-import { getSortedMeetupListByYear } from '@/lib/meetups.js'
+import { getSortedMeetupListByYear } from '@/lib'
 
-export default async function Page () {
-    const meetupList = await getSortedMeetupListByYear()
-    const nextMeetup = meetupList.shift()
+export default function Page () {
+    const [ nextMeetup, ...meetupList ] = getSortedMeetupListByYear()
 
     return (
-        <div className="block-fullwith">
+        <div className="block-fullwidth">
             <MeetupDetails meetup={nextMeetup} />
         </div>
     )
 }
+

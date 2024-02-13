@@ -12,6 +12,7 @@
 
 body {
   background-color: var(--color-light-grey);
+  color: var(--color-dark-grey);
   font-family: var(--font-body);
   font-weight: 300;
 }
@@ -27,7 +28,7 @@ a {
    text-decoration: none;
 }
 
-.block-fullwith {
+.block-fullwidth {
   display: flex;
   justify-content: center;
 }

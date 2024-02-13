@@ -1,7 +1,6 @@
 {
   "name": "nantesjs-blog",
   "version": "0.1.0",
-  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,9 +17,7 @@
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-feather": "^2.0.10",
-    "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "react-feather": "^2.0.10"
   },
   "devDependencies": {
     "@stylistic/eslint-plugin": "^1.5.4",
@@ -29,6 +26,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
+    "jest-axe": "^8.0.0",
     "stylelint": "^16.2.1",
     "stylelint-config-standard": "^36.0.0",
     "vitest": "^1.2.2"
