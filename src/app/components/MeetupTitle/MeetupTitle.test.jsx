@@ -3,12 +3,12 @@ import { fr } from 'date-fns/locale'
 import { describe, expect, it } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import { axe } from 'jest-axe'
-import { MeetupDetails } from './MeetupDetails'
+import { MeetupTitle } from './index'
 import '@testing-library/jest-dom'
 
 const parseDate = (date) => parse(date, 'yyyy-MM-dd', new Date(), { locale: fr })
 
-describe('MeetupDetails', () => {
+describe('MeetupTitle', () => {
     const meetup = {
         date: parseDate('2024-01-18'),
         image: '/path/to/image.jpg',
@@ -18,7 +18,7 @@ describe('MeetupDetails', () => {
     }
 
     it('renders the meetup title, sponsor, and host correctly', () => {
-        render(<MeetupDetails meetup={meetup} />)
+        render(<MeetupTitle meetup={meetup} />)
 
         expect(screen.getByText(meetup.title)).toBeInTheDocument()
         expect(screen.getByText(meetup.sponsor)).toBeInTheDocument()
@@ -26,7 +26,7 @@ describe('MeetupDetails', () => {
     })
 
     it('should have no accessibility violations', async () => {
-        const { container } = render(<MeetupDetails meetup={meetup} />)
+        const { container } = render(<MeetupTitle meetup={meetup} />)
 
         const results = await axe(container)
         expect(results).toHaveNoViolations()

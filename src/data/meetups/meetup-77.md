@@ -43,7 +43,7 @@ Au cours de ce talk, nous déterminerons si ces idées reçues sont justifiées 
 Prérequis :
 
 Avoir un poste de développement ou travailler en binôme
-Avoir installé NodeJS version 18+ (https://nodejs.org/en/download)
+Avoir installé NodeJS version 18+ ((Voir sur le site officiel)[https://nodejs.org/en/download])
 
 Voir la page EventBrite pour l'installation
 "

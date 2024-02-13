@@ -1,8 +1,8 @@
 import { describe, expect, it, vi } from 'vitest'
 import { getSortedMeetupListByYear } from './getSortedMeetupListByYear'
-import * as utils from './'
+import { parseFilesInDirectory } from '@/lib/utils'
 
-vi.mock('./', () => ({
+vi.mock('@/lib/utils', () => ({
     parseFilesInDirectory: vi.fn()
 }))
 
@@ -14,7 +14,7 @@ const mockData = [
 
 describe('getSortedMeetupListByYear', () => {
     beforeEach(() => {
-        utils.parseFilesInDirectory.mockReturnValue(mockData)
+        parseFilesInDirectory.mockReturnValue(mockData)
     })
 
     it('should sort meetups in descending order by date within the specified year', () => {
@@ -35,7 +35,7 @@ describe('getSortedMeetupListByYear', () => {
     })
 
     it('should return an empty array if no meetups match the specified year', () => {
-        utils.parseFilesInDirectory.mockReturnValue([{ date: '01/01/2021', title: 'Meetup in 2021' }])
+        parseFilesInDirectory.mockReturnValue([{ date: '01/01/2021', title: 'Meetup in 2021' }])
 
         const sortedList = getSortedMeetupListByYear(2023)
 
