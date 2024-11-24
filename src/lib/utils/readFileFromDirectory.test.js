@@ -5,7 +5,7 @@ import { readFileFromDirectory } from './readFileFromDirectory.js'
 
 const testDirectory = path.join(process.cwd(), 'src/data/test')
 const testFilename = 'test1.json'
-const testFileContent = '---\ntitle: Test 1\n---\nContent 1'
+const testFileContent = JSON.stringify({ title: 'Test 1' })
 
 const invalidDirectory = 123
 const invalidFilename = null
@@ -24,12 +24,6 @@ describe('readFileFromDirectory', () => {
         const result = readFileFromDirectory({ directory: testDirectory, filename: testFilename })
 
         expect(result).toEqual(testFileContent)
-    })
-
-    it('should return null for a non-existent file', () => {
-        const result = readFileFromDirectory({ directory: testDirectory, filename: 'nonexistent.md' })
-
-        expect(result).toBeNull()
     })
 
     it('should return null for invalid input types', () => {

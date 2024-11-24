@@ -1,5 +1,5 @@
-import Image from 'next/image.js'
-import { MainSection } from '../../(layout)'
+import Image from 'next/image'
+import { MainSection } from '@/app/(layout)/index.js'
 import { MeetupDate } from './MeetupDate'
 import './MeetupTitle.css'
 
