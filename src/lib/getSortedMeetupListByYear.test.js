@@ -1,8 +1,8 @@
 import { describe, expect, it, vi } from 'vitest'
 import { getSortedMeetupListByYear } from './getSortedMeetupListByYear'
-import { parseFilesInDirectory } from '@/lib/utils'
+import { parseFilesInDirectory } from './utils'
 
-vi.mock('@/lib/utils', () => ({
+vi.mock('./utils/parseFilesInDirectory.js', () => ({
     parseFilesInDirectory: vi.fn()
 }))
 

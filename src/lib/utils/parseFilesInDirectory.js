@@ -1,4 +1,5 @@
-import { getFilenames, readFileFromDirectory } from '@/lib/utils'
+import { getFilenames } from './getFilenames.js'
+import { readFileFromDirectory } from './readFileFromDirectory.js'
 
 /**
  * Extracts the data from a markdown file.
@@ -21,7 +22,7 @@ function extractFileData (directory, filename) {
 }
 
 /**
- * Parses markdown files in a given directory and returns their data.
+ * Parses files in a given directory and returns their data.
  *
  * @param {string} directory - The directory to parse files from.
  * @returns {object[]} - An array of objects containing file data.

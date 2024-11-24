@@ -1,6 +1,6 @@
 import { getYear } from 'date-fns'
-import { parseFilesInDirectory, parseMeetupDate } from '@/lib/utils'
-import { MEETUPS_DIRECTORY } from '@/lib/utils/constants'
+import { parseFilesInDirectory, parseMeetupDate } from './utils'
+import { MEETUPS_DIRECTORY } from './utils/constants'
 
 export function getSortedMeetupListByYear (year) {
     const currentYear = year || new Date().getFullYear()

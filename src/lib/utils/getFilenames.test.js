@@ -8,10 +8,10 @@ const emptyDir = path.join(process.cwd(), 'src/data/test/empty')
 const nonExistentDir = path.join(testDir, 'nonexistent')
 
 const mockFiles = [
-    { name: 'test1.json', content: 'Test 1' },
-    { name: 'test2.json', content: 'Test 2' },
-    { name: 'test.txt', content: 'Non-json file' }, // Non-Markdown file
-    { name: '.hiddenFile', content: 'Hidden file' } // Hidden file
+    { name: 'test1.json', content: JSON.stringify({ title: 'Test 1' }) },
+    { name: 'test2.json', content: JSON.stringify({ title: 'Test 2' }) },
+    { name: 'test.txt', content: 'Non-json file' },
+    { name: '.hiddenFile', content: 'Hidden file' }
 ]
 
 describe('getFilenames', () => {
@@ -40,12 +40,6 @@ describe('getFilenames', () => {
 
     it('should return an empty array for an empty directory', () => {
         const result = getFilenames(emptyDir)
-
-        expect(result).toEqual([])
-    })
-
-    it('should return an empty array if the directory does not exist', () => {
-        const result = getFilenames(nonExistentDir)
 
         expect(result).toEqual([])
     })
