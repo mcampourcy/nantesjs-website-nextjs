@@ -1,6 +1,6 @@
 import { getMeetupData } from '@/lib'
 
-import Meetup from '@/app/components/Meetup.jsx'
+import { Meetup } from '@/app/components'
 
 /*
  * Set the title of the page to be the post title, note that we no longer use

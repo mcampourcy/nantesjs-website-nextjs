@@ -1,21 +1,15 @@
-.meetup-details {
-    flex-direction: column;
-    gap: 2rem;
+.meetup {
     font-size: 1.1rem;
 }
 
-.meetup-details h2 {
+.meetup h2 {
     margin-bottom: 1rem;
 }
 
-.meetup-details article {
-    padding-bottom: 1rem;
+.meetup article {
+    padding: 2rem 0;
 }
 
-.meetup-details article:last-of-type {
-    margin-bottom: 3rem;
-}
-
-.meetup-details article:not(:last-of-type) {
+.meetup article:not(:last-of-type) {
     border-bottom: 0.1rem solid #ccc;
 }

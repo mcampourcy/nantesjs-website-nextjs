@@ -51,8 +51,10 @@ ul {
   flex-direction: column;
   gap: 3rem;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .block-fullwidth:nth-child(even) {
   background-color: var(--color-medium-grey);
 }
+
