@@ -14,7 +14,7 @@ export function MeetupTitle ({ meetup }) {
     return (
         <MainSection className="meetup-title">
             <Image
-                src={image}
+                src={`/images/meetups/${image}`}
                 alt=""
                 width={100}
                 height={100}
