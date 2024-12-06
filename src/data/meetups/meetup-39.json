@@ -1,0 +1,40 @@
+{
+  "id": 39,
+  "status": "done",
+  "title": "MEETUP 39",
+  "date": "17/01/2019",
+  "image": "axe-core.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/billets-nantesjs-meetup-36-54638426003",
+  "hosting": 24,
+  "sponsor": 21,
+  "talks": [
+    {
+      "title": "Axe-Core et React : l'accessibilité, ça se teste !",
+      "description": "L'accessibilité est un sujet vaste, qui concerne tout le monde. Il existe aujourd'hui beaucoup d'outils pour tester l'accessibilité d'un site, et nous allons présenter l'un d'entre eux : Axe-Core. Utilisé avec React et Jest, il permet (entre autres) de faire des tests unitaires sur l'accessibilité.",
+      "speakers": [
+        {
+          "name": "Mireille Campourcy ",
+          "link": "mireille_cmpcy"
+        },
+        {
+          "name": "Benoît Deglane",
+          "link": "BenoitDecline"
+        }
+      ]
+    },
+    {
+      "title": "LA NOUVELLE API CONTEXT DE REACT",
+      "description": "La version 16.3 de React est arrivé, avec elle la nouvelle API context. Cette API existait déjà auparavant notamment pour partager des propriétés dans tous nos composants. Mais il y avait une problématique de taille, si une valeur du contexte changeais et qu'un composant intermédiaire bloquait ce changement, les enfants n'était pas mis à jour. Dans une application complexe ça peut devenir compliqué à maintenir. Dorénavant il est possible de créer plusieurs contextes et y avoir accès à n'importe quel endroit de notre arbre de composant sans problématique de re-rendu des composants. Dans ce talk nous allons donc voir comment mettre en place plusieurs contextes et essayer de se passer d'une bibliothèque de gestion d'état comme Redux.",
+      "speakers": [
+        {
+          "name": "Antoine Cellier ",
+          "link": "AntoineCellier3"
+        },
+        {
+          "name": "Julien Tanguy",
+          "link": "jutanguy"
+        }
+      ]
+    }
+  ]
+}

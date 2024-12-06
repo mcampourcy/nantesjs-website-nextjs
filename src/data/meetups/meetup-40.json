@@ -1,0 +1,34 @@
+{
+  "id": 40,
+  "status": "done",
+  "title": "MEETUP 40",
+  "date": "21/02/2019",
+  "image": "guess.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/billets-nantesjs-meetup-37-56359512820",
+  "hosting": 6,
+  "sponsor": 22,
+  "talks": [
+    {
+      "title": "Machine Learning driven user-experiences made easy with Guess.js",
+      "description": "Comment faire plus hype que le Machine Learning ?! Faire de la web perf avec !!! 🤯 #PWA #AI Faites entrer le web dans le #turfu grâce à Guess.js, une collection de libraries créée par Minko Gechev. Nous verrons durant ce talk comment mettre en place très simplement, grâce à vos données Google Analytics: du data-driven bundling avec GuessPlugin, permettant d'optimiser votre build webpack, y compris avec React et Angular du data-driven loading avec guess-static-sites, permettant de réaliser un prefetching automatique, dynamique et intelligent. Pas besoin d'expertise en machine learning! Juste de quelques connaissances JavaScript 😉",
+      "video": "vLhbo-bRTNY",
+      "speakers": [
+        {
+          "name": "NOΞL MACÉ",
+          "link": "noel_mace"
+        }
+      ]
+    },
+    {
+      "title": "Images Responsives",
+      "description": "Pour garantir de bonnes performances, il faut savoir servir à l’utilisateur les bonnes ressources graphiques en fonction de son contexte d’affichage. À ce jour, il existe une technologie standard qui combine code HTML et code CSS, mais qui est souvent mal employée. Nous verrons donc pourquoi, comment y remédier, et ce à travers de nombreux exemples. `picture`, `srcset`, `sizes`, `source`, `media` et `type` n’auront plus de secret pour vous !",
+      "video": "uJdIFcU2vwo",
+      "speakers": [
+        {
+          "name": "Vincent Valentin",
+          "link": "htmlvv"
+        }
+      ]
+    }
+  ]
+}
