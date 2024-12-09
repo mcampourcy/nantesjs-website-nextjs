@@ -10,12 +10,20 @@
     margin-bottom: 1rem;
 }
 
-.avatar img {
+.avatar img,
+.avatar svg {
     border-radius: 50%;
     height: auto;
     max-width: 6.5rem;
     object-fit: cover;
     object-position: top center;
+}
+
+.avatar svg {
+    background-color: #ccc;
+    padding: 1rem;
+    stroke: #777;
+    width: 100%;
 }
 
 .avatar p {

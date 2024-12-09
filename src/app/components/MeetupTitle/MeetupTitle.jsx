@@ -12,21 +12,27 @@ export function MeetupTitle({ meetup }) {
 
   return (
     <div className="meetup-title">
-      <Image
-        src={`/images/meetups/${image}`}
-        alt=""
-        width={100}
-        height={100}
-      />
+      {image && (
+        <Image
+          src={`/images/meetups/${image}`}
+          alt=""
+          width={100}
+          height={100}
+        />
+      )}
 
       <section>
         <h1>{title}</h1>
-        <p>
-                    Sponsorisé par <strong>{sponsor.name}</strong>
-        </p>
-        <p>
-                    Hébergé par <strong>{hosting.name}</strong>
-        </p>
+        {sponsor && (
+          <p>
+            Sponsorisé par <strong>{sponsor.name}</strong>
+          </p>
+        )}
+        {hosting && (
+          <p>
+            Hébergé par <strong>{hosting.name}</strong>
+          </p>
+        )}
       </section>
 
       <MeetupDate date={date} />

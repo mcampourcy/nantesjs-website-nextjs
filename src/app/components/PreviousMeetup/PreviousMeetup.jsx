@@ -38,12 +38,14 @@ export function PreviousMeetup({ meetup }) {
       <div>
         {sponsor && (
           <p>
-                        Sponsorisé par <strong>{sponsor.name}</strong>
+            Sponsorisé par <strong>{sponsor.name}</strong>
           </p>
         )}
-        <p>
-                    Hébergé par <strong>{hosting.name}</strong>
-        </p>
+        {hosting && (
+          <p>
+            Hébergé par <strong>{hosting.name}</strong>
+          </p>
+        )}
       </div>
     </MainSection>
   )

@@ -6,7 +6,7 @@ import { MeetupDetails, MeetupTitle } from '@/app/components'
 import './Meetup.css'
 
 export async function Meetup({ meetup }) {
-  const next = meetup.status === 'next'
+  const next = meetup?.status === 'next'
 
   return (
     <MainSection className="meetup">
@@ -19,7 +19,7 @@ export async function Meetup({ meetup }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-                        Réserver votre place
+            Réserver votre place
             <ExternalLink />
           </Link>
           <Link
@@ -28,7 +28,7 @@ export async function Meetup({ meetup }) {
             rel="noopener noreferrer"
             className="meetup-poster"
           >
-                        Voir l&#39;affiche
+            Voir l&#39;affiche
             <Eye />
           </Link>
         </p>

@@ -15,14 +15,14 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const { year } = params
+  const { year } = await params
   return {
     title: `Meetups pour l'année ${year}`,
   }
 }
 
-export default function YearPage({ params }) {
-  const { year } = params
+export default async function YearPage({ params }) {
+  const { year } = await params
   const meetupList = getMeetupListByYear(parseInt(year, 10))
 
   if (!meetupList.length) {

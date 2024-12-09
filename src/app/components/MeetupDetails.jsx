@@ -1,5 +1,4 @@
 import { Avatar } from '@/app/components/Avatar.jsx'
-import Image from 'next/image.js'
 
 export function MeetupDetails({ meetup }) {
   const isMeetupHero = meetup.type === 'meetup-hero'
