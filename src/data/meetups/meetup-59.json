@@ -1,0 +1,33 @@
+{
+  "id": 59,
+  "status": "done",
+  "title": "Meetup #59",
+  "date": "18/02/2021",
+  "image": "Typescript.svg",
+  "remote": true,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "🤯 avec TypeScript",
+      "description": "TypeScript est un langage open-source principalement développé par Microsoft, dont l'objectif est d'être un 'JavaScript avec des types'. JavaScript est un langage flexible à l'extrême, et les développeurs ne se privent pas d'exploiter cette flexibilité. Par conséquent les programmes JavaScript peuvent être excessivement difficiles à typer précisément. TypeScript choisit tout de même d'être, à terme, en capacité de typer n'importe quel programme JavaScript. Ainsi, avec chaque nouvelle version, le compilateur prend en charge des types de plus en plus puissants afin de couvrir de plus en plus de cas rencontrés en JavaScript. Ceci donne lieu a des types très simples mais inhabituels tel que 1319 qui accepte uniquement la valeur 1319 ou encore des types assez ésotériques tel que Extract&lt;A, B&gt; dont l'ensemble des valeurs est l'intersection de l'ensemble des valeurs du type A avec l'ensemble des valeurs du type B. TypeScript 4.2 est sur le point de sortir. Faisons une récapitulatif ! Dans ce talk je vous présenterai une sélection de types insolites ainsi que les nouveautés 2021 de TypeScript. L'objectif est de s'ouvrir l'esprit sur ce qu'un système de type est capable d'exprimer.",
+      "video": "5AWtVMdCFFo?start=680",
+      "speakers": [
+        {
+          "name": "Hugo Wood",
+          "link": "mercury_wood"
+        }
+      ]
+    },
+    {
+      "title": "La jungle des licences open source",
+      "description": "Vous êtes vous déjà retrouvé dans une de ces situations ? Vous avez ajouté une nouvelle dépendance à votre projet sans vérifier la licence et donc sans en connaître les impacts. Vous avez voulu partager votre projet en Open Source mais ne saviez pas quelle licence utiliser. Vous avez essayé de comprendre les licences Open Source mais vous vous êtes senti perdu. Si oui, alors je vous propose de mettre votre tenue d'aventurier et de partir à la découverte des Licences Open Source. Nous explorerons la jungle des licences (GPL, LGPL, MIT, BSD, Apache,...), gravirons les monts Copyright et Copyleft, découvrirons les plaines des outils de détection de licences, et franchirons des rivières à l’aide de nos guides de l’Open Source… et avec de la chance nous obtiendrons les réponses à nos questions. Alors si vous êtes prêt pour partir à l'aventure, rejoignez-moi !",
+      "video": "5AWtVMdCFFo?start=2511",
+      "speakers": [
+        {
+          "name": "Jean-Michael Legait",
+          "link": "jmlegait"
+        }
+      ]
+    }
+  ]
+}

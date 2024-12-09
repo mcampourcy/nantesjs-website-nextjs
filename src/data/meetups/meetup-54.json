@@ -1,0 +1,32 @@
+{
+  "id": 54,
+  "status": "done",
+  "title": "Meetup #54",
+  "date": "18/06/2020",
+  "image": "svelte.png",
+  "remote": true,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "WebRTC: déployer du P2P dans le navigateur",
+      "description": "WebRTC permet de créer des applications multimédia temps réel (voix, vidéo, chat, …) et de réaliser du transfert de données, le tout en mode P2P. Nous nous intéresserons à sa mise en oeuvre dans le navigateur et à l’infrastructure qui permet de la supporter.",
+      "video": "iX8bsvS6s5c?start=745",
+      "speakers": [
+        {
+          "name": "Stéphane Alnet"
+        }
+      ]
+    },
+    {
+      "title": "Svelte : Un concurrent de poids face à Angular-React-Vue ?",
+      "description": "Svelte n'est pas une librairie, ni un framework mais un compilateur générant du VanillaJS à partir d'un fichier &#x60;.svelte&#x60;. Cette approche apporte plusieurs intérêts donc principalement : Meilleurs performances (le JS est optimal), Sucre syntaxique (des raccourcis permettent d'écrire moins de code et donc produire plus) et l'encapsulation CSS native.",
+      "video": "iX8bsvS6s5c?start=3372",
+      "speakers": [
+        {
+          "name": "Alexandre CANTIN",
+          "link": "Cantin_Al"
+        }
+      ]
+    }
+  ]
+}

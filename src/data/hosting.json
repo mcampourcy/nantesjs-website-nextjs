@@ -39,7 +39,13 @@
     },
     {
         "name": "iAdvize",
-        "id": 11
+        "id": 11,
+        "link": "https://www.iadvize.com",
+        "postalCode": 44000,
+        "address": "9 Rue Nina Simone",
+        "city": "Nantes",
+        "latitude": 47.2172557,
+        "longitude": -1.5343603
     },
     {
         "name": "KNPLabs",
@@ -138,6 +144,7 @@
     },
     {
         "id": 24,
+        "name": "Pôle Emploi",
         "postalCode": 44000,
         "address": "2 rue Konrad Adénauer",
         "city": "Nantes",
@@ -159,5 +166,65 @@
         "latitude": 47.2070383,
         "longitude": -1.5534138,
         "link": "https://www.beekast.com/fr"
+    },
+    {
+        "id": 27,
+        "name": "Gens de Confiance",
+        "postalCode": 44000,
+        "address": "16 Boulevard Gabriel Guist'Hau",
+        "city": "Nantes",
+        "latitude": 47.21620250000001,
+        "longitude": -1.5653987,
+        "link": "https://gensdeconfiance.fr/"
+    },
+    {
+        "id": 28,
+        "name": "Wild Code School",
+        "link": "https://wildcodeschool.fr/",
+        "postalCode": 44200,
+        "address": "2 bis Quai François Mitterrand",
+        "city": "Nantes",
+        "latitude": 47.2071068,
+        "longitude": -1.5555923
+    },
+    {
+        "id": 29,
+        "name": "Ippon",
+        "link": "https://fr.ippon.tech/",
+        "postalCode": 44200,
+        "address": "3 allée Susan Brownell Anthony, ZAC des Prairies",
+        "city": "Nantes",
+        "latitude": 47.2037747,
+        "longitude": -1.5687633
+    },
+    {
+        "id": 30,
+        "name": "UmanIT",
+        "link": "https://www.umanit.fr/",
+        "postalCode": 44000,
+        "address": "13 Place Sophie Trébuchet",
+        "city": "Nantes",
+        "latitude": 47.2202226,
+        "longitude": -1.5453091
+    },
+    {
+        "id": 31,
+        "name": "Talend SA (R&D Center)",
+        "link": "http://www.talend.com/",
+        "postalCode": 44200,
+        "address": "89 Boulevard de la Prairie au Duc",
+        "city": "Nantes",
+        "latitude": 47.2038802,
+        "longitude": -1.5670684
+    },
+    {
+        "id": 32,
+        "name": "SII",
+        "link": "http://www.groupe-sii.com/fr",
+        "postalCode": 44200,
+        "address": "10 Rue Magdeleine",
+        "city": "Nantes",
+        "latitude": 47.2044435,
+        "longitude": -1.5686195
     }
 ]

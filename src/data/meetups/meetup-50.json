@@ -1,0 +1,38 @@
+{
+  "id": 50,
+  "status": "done",
+  "title": "Meetup #50",
+  "date": "16/01/2020",
+  "image": "accessibility-blue.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/meetup-47-tickets-88659810881",
+  "hosting": 32,
+  "sponsor": 10,
+  "talks": [
+    {
+      "title": "Accessibilité, utiliser  un \"screen reader\" pour le développement Web",
+      "description": "Le lecteur d’écran ou 'screen reader' est un logiciel d’assistance technique destiné aux personnes empêchées de lire pour retranscrire par synthèse vocale ce qui est affiché sur l'écran. Quand on doit gérer l'accessibilité d'une appli web, il est important d’utiliser un 'screen reader' car l’être humain est indispensable pour la validation fonctionnelle de l'expérience utilisateur.",
+      "video": "zQG7HPHVyMU",
+      "speakers": [
+        {
+          "name": "Benoît Deglane",
+          "link": "BenoitDecline"
+        }
+      ]
+    },
+    {
+      "title": "REXP DotJs 2020",
+      "description": "Nous vous proposons un retour sur notre participation à DotJs 2019 à Paris. Au programme : * présentation de l’événement * retour sur les conférences * points d'attentions sur nos coup de cœur",
+      "video": "KD7rj2puboc",
+      "speakers": [
+        {
+          "name": "Anthony PENA",
+          "link": "_Anthony_Pena"
+        },
+        {
+          "name": "Adrien LASSELLE",
+          "link": "AdrienLASSELLE"
+        }
+      ]
+    }
+  ]
+}

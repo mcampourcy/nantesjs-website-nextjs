@@ -1,0 +1,34 @@
+{
+  "id": 42,
+  "status": "done",
+  "title": "Meetup #42",
+  "date": "18/04/2019",
+  "image": "tree.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/meetup-39-tickets-60120001543",
+  "hosting": 27,
+  "sponsor": 5,
+  "talks": [
+    {
+      "title": "Écosystème Javascript: du module aux outils de pré-processing",
+      "description": "En quelques années. l'écosystème javascript à énormément évolué. Entre npm, yarn, webpack, babel, gulp, ecmascript etc. on peut facilement se perdre. Ce talk a pour but de remettre de l'ordre dans l'esprit des développeurs junior. En rappelant l'histoire derrière chacun de ces outils, je vous présente dans quels cas et comment ils sont utilisés dans les développements d'aujourd'hui et de demain. ",
+      "video": "uF_UYiEBbCI",
+      "speakers": [
+        {
+          "name": "Antoine Bluchet",
+          "link": "s0yuka"
+        }
+      ]
+    },
+    {
+      "title": "Lint, Coverage, Doc, Autocompletion, Transpilation, Minification... powered by AST",
+      "description": "Today's Web Development tooling is now a very rich ecosystem that allows very professional workflows, and the fun thing is that they all share a very interesting technology called AST, for \"Abstract syntax tree\". That's so powerful that some people see it as a very complex magic thing. Now the fun part... It is in fact quite simple to understand., and today's libraries (Arcon, Esprima, Espree, Babylon) allows anyone to create their own tools, fork existing ones, or write plugins matching our own desires.",
+      "video": "F5DR6-KeDig",
+      "speakers": [
+        {
+          "name": "Alexandre Morgaut",
+          "link": "amorgaut"
+        }
+      ]
+    }
+  ]
+}

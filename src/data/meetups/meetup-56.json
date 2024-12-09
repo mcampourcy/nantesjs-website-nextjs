@@ -1,0 +1,33 @@
+{
+  "id": 56,
+  "status": "done",
+  "title": "Meetup #56",
+  "date": "15/10/2020",
+  "image": "maposaic.png",
+  "remote": true,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Canvas pixels transformation : beauty comes slowly",
+      "description": "How to turn maps or any image into beautiful mosaics with the javascript Canvas api ? I will share my experience on my (React + Typescript + Worker) project maposaic.com. At the end of this talk you will know the basics that allow you to modify a canvas in a web project. You will know why WebGL renderings perform much better than an algorithm that iterates over all pixels.",
+      "video": "IsRPxvxL9a0?start=682",
+      "speakers": [
+        {
+          "name": "Victor Lebrun",
+          "link": "viconnex"
+        }
+      ]
+    },
+    {
+      "title": "Comment j'ai réussi à parler devant 400 personnes",
+      "description": "Pouvoir prendre la parole en public est de plus en plus demandé sur le marché du travail. On parle de soft skills clé pour un développeur : présenter à un meetup, à son équipe, à des clients... Je vous partage ici les tips que j'ai mis en place pour réussir à parler devant 400 personnes.",
+      "video": "IsRPxvxL9a0?start=2457",
+      "speakers": [
+        {
+          "name": "Benjamin Casseron",
+          "link": "bcasseron"
+        }
+      ]
+    }
+  ]
+}
