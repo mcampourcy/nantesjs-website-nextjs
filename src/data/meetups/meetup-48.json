@@ -1,0 +1,36 @@
+{
+  "id": 48,
+  "status": "done",
+  "title": "Meetup #48",
+  "date": "17/10/2019",
+  "image": "oss.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/meetup-45-tickets-76005882641",
+  "hosting": 30,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Démystifier les contributions open source",
+      "description": "A quel projet contribuer? Que puis-je apporter? Comment vais-je être perçu? Et surtout, suis-je légitime? Alors que l’idée de contribuer à des projets open source germe en nous, de nombreuses questions viennent à se poser, tant sur un axe fonctionnel que technique. Aborder un projet ou mettre son code à nu aux yeux de tous ne sont pas des démarches aisées pour tous les développeurs. Dans le parcours qui vous amènera jusqu’à la pull request, découvrez quels sont les mécanismes humains et techniques qui interviendront dans cette démarche.",
+      "speakers": [
+        {
+          "name": "Gérôme Grignon",
+          "link": "GeromeGrignon"
+        }
+      ]
+    },
+    {
+      "title": "Comment promouvoir son projet open-source ?",
+      "description": "En tant que développeur, nous utilisons quotidiennement l’open source. Aujourd’hui, nous avons tous le réflexe d’utiliser ces projets basés sur un modèle collaboratif pour répondre à des problématiques du quotidien et accélérer le développement. Créer un projet open-source est une excellente opportunité de devenir acteur de la communauté. Comment promouvoir un projet open-source ? Quelles sont les étapes ? Comment inciter les visiteurs à l’utiliser, voire à y contribuer ? Comment et où communiquer son existence ? Nous vous donnerons toutes les clés pour promouvoir votre projet open-source dans les meilleures conditions en s’appuyant sur des exemples concrets ainsi que notre expérience sur le sujet.",
+      "speakers": [
+        {
+          "name": "Thomas Betous",
+          "link": "tbetous"
+        },
+        {
+          "name": "Franck Abgrall",
+          "link": "FranckAbgrall"
+        }
+      ]
+    }
+  ]
+}
