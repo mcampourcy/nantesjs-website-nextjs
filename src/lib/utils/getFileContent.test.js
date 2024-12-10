@@ -5,7 +5,7 @@ import { getFileContent } from './getFileContent'
 
 const testDirectory = path.join(process.cwd(), 'src/data/tests')
 const testFilename = 'test1'
-const testFileContent =  {title: 'Test 1' }
+const testFileContent = { title: 'Test 1' }
 
 const invalidDirectory = 123
 const invalidFilename = null
