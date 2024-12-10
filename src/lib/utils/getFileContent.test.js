@@ -3,9 +3,9 @@ import fs from 'fs'
 import { describe, expect, it, beforeEach, afterEach } from 'vitest'
 import { getFileContent } from './getFileContent'
 
-const testDirectory = path.join(process.cwd(), 'src/data/test')
-const testFilename = 'test1.json'
-const testFileContent = JSON.stringify({ title: 'Test 1' })
+const testDirectory = path.join(process.cwd(), 'src/data/tests')
+const testFilename = 'test1'
+const testFileContent = { title: 'Test 1' }
 
 const invalidDirectory = 123
 const invalidFilename = null
@@ -14,8 +14,8 @@ describe('getFileContent', () => {
   beforeEach(() => {
     fs.mkdirSync(testDirectory, { recursive: true })
     fs.writeFileSync(
-      path.join(testDirectory, testFilename),
-      testFileContent
+      path.join(testDirectory, `${testFilename}.json`),
+      JSON.stringify(testFileContent)
     )
   })
 
@@ -24,10 +24,7 @@ describe('getFileContent', () => {
   })
 
   it('should correctly read and return file content', () => {
-    const result = getFileContent({
-      directory: testDirectory,
-      filename: testFilename,
-    })
+    const result = getFileContent(testFilename, testDirectory)
 
     expect(result).toEqual(testFileContent)
   })

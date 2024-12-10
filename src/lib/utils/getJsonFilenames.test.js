@@ -1,11 +1,10 @@
 import path from 'path'
 import fs from 'fs'
 import { describe, expect, it, beforeEach, afterEach } from 'vitest'
-import { getJsonFilenames } from './getJsonFilenamesparseJsonFilesInDirectory'
+import { getJsonFilenames } from './getJsonFilenames'
 
 const testDir = path.join(process.cwd(), 'src/data/test')
 const emptyDir = path.join(process.cwd(), 'src/data/test/empty')
-const nonExistentDir = path.join(testDir, 'nonexistent')
 
 const mockFiles = [
   { name: 'test1.json', content: JSON.stringify({ title: 'Test 1' }) },
@@ -32,7 +31,7 @@ describe('getJsonFilenames', () => {
     const result = getJsonFilenames(testDir)
 
     expect(result.length).toBe(2)
-    expect(result).toEqual(['test1.json', 'test2.json'])
+    expect(result).toEqual(['test1', 'test2'])
   })
 
   it('should return an empty array for an empty directory', () => {
