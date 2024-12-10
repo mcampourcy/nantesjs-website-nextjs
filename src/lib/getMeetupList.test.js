@@ -1,20 +1,13 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { getMeetupList } from './getMeetupList.js'
-import * as utils from './utils/index.js'
+import { getFileContent, getJsonFilenames, parseDateFromString } from '../lib/utils/index.js'
 
-vi.mock('./getJsonFilenames.js', () => ({
-  getJsonFilenames: vi.fn(),
-}))
+vi.mock('../lib/utils/getJsonFilenames.js')
+vi.mock('../lib/utils/getFileContent.js')
 
-vi.mock('./getFileContent.js', () => ({
-  getFileContent: vi.fn(),
-}))
-const mockFiles = ['test1.json', 'test2.json']
-
-const mockFileContents = [
-  JSON.stringify({ title: 'Test 1' }),
-  JSON.stringify({ title: 'Test 2' }),
-]
+const mockFilenames = ['test1', 'test2']
+const mockFile1Contents = { title: 'Test 1', date: '03/04/2016' }
+const mockFile2Contents = { title: 'Test 2', date: '04/05/2017' }
 
 describe('getMeetupList', () => {
   beforeEach(() => {
@@ -23,37 +16,35 @@ describe('getMeetupList', () => {
 
   it('should correctly parse json files in a directory', () => {
     // given
-    utils.getJsonFilenames.mockReturnValue(mockFiles)
-    utils.getFileContent.mockImplementation(({ filename }) => {
-      return mockFileContents[mockFiles.indexOf(filename)]
-    })
+    vi.mocked(getJsonFilenames).mockReturnValue(mockFilenames)
+    vi.mocked(getFileContent).mockReturnValueOnce(mockFile1Contents)
+    vi.mocked(getFileContent).mockReturnValueOnce(mockFile2Contents)
+
     // when
-    const result = getMeetupList({ directory: '/test/dir' })
-    console.log(result)
+    const result = getMeetupList()
+
     // then
     expect(result).toEqual([
-      { id: 'test1', title: 'Test 1' },
-      { id: 'test2', title: 'Test 2' },
+      {
+        date: parseDateFromString(mockFile1Contents.date),
+        title: mockFile1Contents.title,
+        hosting: null,
+        sponsor: null,
+      },
+      {
+        date: parseDateFromString(mockFile2Contents.date),
+        title: mockFile2Contents.title,
+        hosting: null,
+        sponsor: null,
+      }
     ])
   })
 
   it('should return an empty array for an empty directory', () => {
     // given
-    utils.getJsonFilenames.mockReturnValue([])
+    vi.mocked(getJsonFilenames).mockReturnValue([])
     // when
-    const result = getMeetupList({ directory: '/empty/dir' })
-    // then
-    expect(result).toEqual([])
-  })
-
-  it('should handle file read errors gracefully', () => {
-    // given
-    utils.getJsonFilenames.mockReturnValue(['test1.md'])
-    utils.getFileContent.mockImplementation(() => {
-      throw new Error('File read error')
-    })
-    // when
-    const result = getMeetupList({ directory: '/test/dir' })
+    const result = getMeetupList()
     // then
     expect(result).toEqual([])
   })

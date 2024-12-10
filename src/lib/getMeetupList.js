@@ -23,9 +23,7 @@ export function getMeetupListByYear(year = currentYear) {
   const meetupList = getMeetupList()
 
   return meetupList
-    .filter(
-      (meetup) => meetup.date && getYear(new Date(meetup.date)) === year
-    )
+    .filter((meetup) => meetup.date && getYear(new Date(meetup.date)) === year)
     .sort((a, b) => new Date(b.date) - new Date(a.date))
 }
 
@@ -44,15 +42,15 @@ export function getMeetupList() {
   return jsonFilenames
     .map((filename) => {
       const meetup = getFileContent(filename)
+      const sponsor = sponsors?.find((s) => s.id === meetup.sponsor) || null
+      const hosting = hostings?.find((h) => h.id === meetup.hostings) || null
 
       if (meetup) {
         return {
           ...meetup,
           date: parseDateFromString(meetup.date),
-          sponsor:
-                        sponsors.find((s) => s.id === meetup.sponsor) || null,
-          hosting:
-                        hostings.find((h) => h.id === meetup.hosting) || null,
+          sponsor,
+          hosting,
         }
       }
     })
