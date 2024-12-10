@@ -1,8 +1,9 @@
+import { Youtube } from 'react-feather'
 import Image from 'next/image'
 import Link from 'next/link'
 import { MeetupDate } from '@/app/components'
-import { MainSection } from '@/app/(layout)'
 
+import { MainSection } from '@/app/(layout)'
 import './PreviousMeetup.css'
 
 export function PreviousMeetup({ meetup }) {
