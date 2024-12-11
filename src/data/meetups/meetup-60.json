@@ -1,0 +1,25 @@
+{
+  "id": 60,
+  "status": "done",
+  "title": "Meetup #60",
+  "date": "18/03/2021",
+  "image": "css3.svg",
+  "remote": true,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Démystifions les CSS Custom Properties",
+      "description": "Les CSS Variables, de leur vrai nom : Custom Properties, sont désormais supportées par tous les navigateurs modernes. Et pourtant, elles restent sous-utilisées ! Venez découvrir les fonctionnalités offertes par cette nouvelle spécification, ses avantages, ses limites et ainsi vous convertir à l’utilisation massive des variables dans vos projets web !",
+      "speakers": [
+        {
+          "name": "Audrey Le Mercier",
+          "link": "ag_lemercier"
+        },
+        {
+          "name": "Jean-Francois Garreau",
+          "link": "jefbinomed"
+        }
+      ]
+    }
+  ]
+}

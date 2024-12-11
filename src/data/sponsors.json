@@ -97,5 +97,15 @@
         "id": 22,
         "name": "My Money Bank",
         "link": "https://www.mymoneybank.fr/"
+    },
+    {
+        "id": 23,
+        "name": "Sfeir",
+        "link": "https://www.sfeir.com/"
+    },
+    {
+        "id": 24,
+        "name": "Oxiane",
+        "link": "https://www.oxiane.bzh/"
     }
 ]

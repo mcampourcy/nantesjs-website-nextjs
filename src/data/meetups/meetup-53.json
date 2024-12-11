@@ -1,0 +1,33 @@
+{
+  "id": 53,
+  "status": "done",
+  "title": "Meetup #53",
+  "date": "19/05/2020",
+  "image": "container.png",
+  "remote": true,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Conteneurisation Pour Les Développeurs Logiciels",
+      "description": "La fin est proche. Votre application est presque prête et il faudra bientôt la déployer. Et avec le déploiement viendra inévitablement les ajustements sans fin afin de finalement avoir une application qui fonctionne dans un environnement de production. Si seulement il y avait un moyen de s'assurer que tout fonctionne plus tôt... C'est là que les conteneurs viennent en jeu. Avec les conteneurs, non seulement vous pourrez tester dans un environnement similaire, vous pourrez rouler votre code dans l'environnement de production. Dans cette présentation, les participants apprendront comment créer des applications conteneur-friendly, comment les utiliser pour partager leur code et finalement comment s'en servir pour déployer dans un serveur de production avec peu d'efforts.",
+      "video": "et0Ip1Fd9_s?start=813",
+      "speakers": [
+        {
+          "name": "Joel Lord",
+          "link": "joel__lord"
+        }
+      ]
+    },
+    {
+      "title": "Le web Natif débarque",
+      "description": "Toujours dans la continuité du web manifesto visant à mettre à disposition plus d’API bas niveau sur le web. Le “projet FUGU” (non ce n’est pas le nouveau nom du Yaourt de Dan...) est le nom de code du projet permettant de mettre à disposition des APIs web qui complètent l’intégration avec l’OS (Explorateur de fichier, Accès aux contacts, Bluetooth, …). Venez dans cette session pour découvrir quelles APIs vous allez pouvoir utiliser demain dans vos applications web.",
+      "video": "et0Ip1Fd9_s?start=3072",
+      "speakers": [
+        {
+          "name": "Jean-Francois Garreau",
+          "link": "jefbinomed"
+        }
+      ]
+    }
+  ]
+}

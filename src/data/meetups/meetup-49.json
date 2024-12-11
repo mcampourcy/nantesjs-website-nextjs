@@ -1,0 +1,34 @@
+{
+  "id": 49,
+  "status": "done",
+  "title": "Meetup #49",
+  "date": "21/11/2019",
+  "image": "webgl.svg",
+  "ticketsUrl": "https://www.eventbrite.fr/e/meetup-46-tickets-81708922587",
+  "hosting": 31,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "WebGL, WebXR, WebGPU, un décryptage en douceur",
+      "description": "WebGL est une API bien installée dans nos navigateurs. Je vous invite à en faire un tour d'horizon : - d'où ça vient ? - à quoi ça sert ? - comment ça fonctionne ? - comment on l'utilise _concrètement_ ? Pour finir, nous aborderons également les nouveaux venus WebXR et WebGPU.",
+      "video": "0Z0yMeqzJdQ",
+      "speakers": [
+        {
+          "name": "Nicolas Lelong",
+          "link": "rotoglup"
+        }
+      ]
+    },
+    {
+      "title": "Micro-Frontend: Toutes les techniques de synchronisation de scripts",
+      "description": "Technique émergente de gestion du frontend, avec de belles promesses vient aussi son lot de difficultés, en particulier sur la communication des composants. En pleine maîtrise ou non de sa page web, il y a toujours moyen de s'en sortir. Il arrive aussi parfois qu'on soit dans le cas d'une architecture micro-frontend sans s'en rendre compte. Au travers d'un REX, voyons comment des technologies comme rxjs, redux ou encore les custom events peuvent nous aider. Passons en revue les différentes techniques de synchronisation avec leurs avantage et leurs inconvénients.",
+      "video": "5jA_DS177U0",
+      "speakers": [
+        {
+          "name": "Nordwin Hoff",
+          "link": "dedalusium"
+        }
+      ]
+    }
+  ]
+}
