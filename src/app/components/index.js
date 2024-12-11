@@ -1,3 +1,4 @@
+export { Avatar } from './Avatar'
 export { Logo } from './Logo'
 export { Meetup } from './Meetup'
 export { MeetupDate } from './MeetupDate'
