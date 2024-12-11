@@ -19,6 +19,10 @@
     border-bottom: 0.1rem solid #ccc;
 }
 
+.meetup article iframe {
+    margin-top: 2rem;
+}
+
 .meetup > .reservation {
     display: flex;
     gap: 2rem;
