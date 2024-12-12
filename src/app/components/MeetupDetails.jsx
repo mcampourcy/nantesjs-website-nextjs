@@ -1,4 +1,4 @@
-import { Avatar } from '@/app/components/Avatar.jsx'
+import { Avatar } from '@/app/components/Avatar'
 
 export function MeetupDetails({ meetup }) {
   const isMeetupHero = meetup.type === 'meetup-hero'

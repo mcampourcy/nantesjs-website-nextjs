@@ -43,7 +43,7 @@ export function getMeetupList() {
     .map((filename) => {
       const meetup = getFileContent(filename)
       const sponsor = sponsors?.find((s) => s.id === meetup.sponsor) || null
-      const hosting = hostings?.find((h) => h.id === meetup.hostings) || null
+      const hosting = hostings?.find((h) => h.id === meetup.hosting) || null
 
       if (meetup) {
         return {

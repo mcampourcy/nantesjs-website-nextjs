@@ -3,6 +3,7 @@ import { ExternalLink, Eye } from 'react-feather'
 import { MainSection } from '@/app/(layout)'
 import { MeetupDetails, MeetupTitle } from '@/app/components'
 
+import { Map } from '@/app/components/Map'
 import './Meetup.css'
 
 export async function Meetup({ meetup }) {
@@ -11,6 +12,7 @@ export async function Meetup({ meetup }) {
   return (
     <MainSection className="meetup">
       <MeetupTitle meetup={meetup} />
+      {next && <Map hosting={meetup.hosting} />}
       <MeetupDetails meetup={meetup} />
       {next && (
         <p className="reservation">
