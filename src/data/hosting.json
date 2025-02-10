@@ -226,5 +226,35 @@
         "city": "Nantes",
         "latitude": 47.2044435,
         "longitude": -1.5686195
+    },
+    {
+        "id": 33,
+        "name": "NantesJS",
+        "link": "https://nantesjs.org"
+    },
+    {
+        "id": 34,
+        "name": "Doctolib",
+        "link": "https://www.doctolib.fr"
+    },
+    {
+        "id": 35,
+        "name": "Shopopop",
+        "link": "https://www.shopopop.com/",
+        "postalCode": "44000",
+        "address": "1 TER Mail Pablo Picasso",
+        "city": "Nantes",
+        "latitude": "47.2166537",
+        "longitude": "-1.5353364"
+    },
+    {
+        "id": 36,
+        "name": "Niji",
+        "link": "https://www.niji.fr/fr/",
+        "postalCode": "44200",
+        "address": "10 Rue Magdeleine",
+        "city": "Nantes",
+        "latitude": "47.2041778",
+        "longitude": "-1.5683726"
     }
 ]

@@ -1,0 +1,33 @@
+{
+  "id": 70,
+  "status": "done",
+  "title": "Meetup #70",
+  "date": "16/06/2022",
+  "image": "angular2.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/billets-meetup-67-356230283367",
+  "remote": true,
+  "hosting": 3,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Standalone component, le futur d'Angular ?",
+      "description": "Quiconque a déjà utilisé Angular pour construire une application a déjà eu a manipuler des composants et des modules. Depuis quelques temps maintenant, au sein de la communauté Angular, nous pouvons entendre parler de la notion de 'Standalone component'. Mais c'est quoi exactement un standalone component ? D'où est ce que ça sort, à quels besoins répondent ils et finalement sont ils le futur du développement avec Angular ? En bref, on part à la découverte des Angular Standalone component 😁",
+      "speakers": [
+        {
+          "name": "Jimmy Kasprzak",
+          "link": "JimmyKasprzak"
+        }
+      ]
+    },
+    {
+      "title": "REX: [no & low & yes] code pour lancer notre nouveau projet",
+      "description": "En novembre dernier je me suis associé à David pour lancer Clapclap avec l'ambition de faciliter l'organisation de commandes groupées auprès de producteurs locaux et de marques engagées. On est 2, mais je suis seul 'à la tech'. 4 projets web / applications à lancer le plus vite possible pour pouvoir tester le marché, comment faire? Petit tour d'horizon de l'archi mis en place (et qui évolue quasiment toutes les semaines 😅) avec du JS notamment alors que mon parcours est plutôt orienté PHP 😱.",
+      "speakers": [
+        {
+          "name": "Kevin Saliou",
+          "link": "kbsali"
+        }
+      ]
+    }
+  ]
+}

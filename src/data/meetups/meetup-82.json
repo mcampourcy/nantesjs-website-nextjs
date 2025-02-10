@@ -1,11 +1,10 @@
 {
-    "id": 78,
+    "id": 82,
     "type": "meetup-hero",
     "status": "done",
     "title": "Le meetup dont vous êtes le héros",
-    "date": "12/07/2023",
+    "date": "11/07/2024",
     "image": "casque.png",
-    "ticketsUrl": "https://www.eventbrite.fr/e/billets-le-meetup-dont-vous-etes-le-heros-5-668624733577",
     "hosting": 2,
     "sponsor": 1,
     "talks": [

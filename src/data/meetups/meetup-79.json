@@ -1,34 +1,32 @@
 {
-    "id": 79,
-    "status": "next",
-    "title": "Meetup #79",
-    "date": "12/12/2024",
-    "image": "tree.png",
-    "ticketsUrl": "https://www.eventbrite.fr/e/billets-meetup-79-1104429912599",
-    "hosting": 21,
-    "sponsor": 1,
-    "talks": [
+  "id": 79,
+  "status": "done",
+  "title": "Meetup #79",
+  "date": "20/09/2023",
+  "image": "htmx.png",
+  "ticketsUrl": " https://www.eventbrite.fr/e/billets-meetup-75-719214288297",
+  "remote": true,
+  "hosting": 12,
+  "sponsor": 8,
+  "talks": [
+    {
+      "title": "Dynamisez vos backends avec HTMX",
+      "description": "Les sites et applications web sont souvent architecturées de la même manière. Au choix: on développe un backend qui renvoie du HTML directement et qui recharge la page à chaque action, on développe un backend et un frontend qui communiquent par des requêtes AJAX pour mettre à jour uniquement une partie de la page. Et si on pouvait garder la codebase unique du premier avec les pages dynamiques du second ? C'est ce dont on va parler avec en fil rouge le site salaires.dev que j'ai développé et que j'ai récemment fait évoluer grâce à HTMX.",
+      "speakers": [
         {
-            "title": "L’inévitable chemin vers le DevGreenOPs",
-            "description": "Des bonnes pratiques, de nombreux outils, et des incitations légales grandissantes. Aussi évoqué sous le nom de DevSusOPs, pour « Sustainability IT » ou Numérique Responsable en français, ce domaine était initialement principalement pris en compte sous l’angle de l’aspect Financier ou des gains de performances, mais comme pour le RGPD et le RGAA, le RGESN avec la loi REEN, ainsi que le CSRD européen et les recommandation W3C nous incitent à prendre les choses en main. Des Linters aux outils de mesures d’impact carbones découvrez comment être efficaces de votre IDE à votre production.",
-            "speakers": [
-                {
-                    "name": "Alexandre Morgaut",
-                    "link": "amorgaut",
-                    "image": "https://avatars0.githubusercontent.com/u/49318?v=4"
-                }
-            ]
-        },
-        {
-            "title": "Adieu RxJS ! Vive les Signals ! Oh wait…",
-            "description": "On a commencé à voir les Signals en version 16, l’API est stable depuis la version 17, les Signals viennent radicalement changer la manière de penser la réactivité en Angular, surtout avec l’approche des Signal Inputs et de la promesse qui commence à vraiment émerger de faire disparaître Zone.js. Il reste encore une brique qui embête beaucoup de gens et qui semble devoir être supprimée aussi : RxJS ! Est-ce qu’on veut vraiment que RxJS soit entièrement remplacé par les Signals ?",
-            "speakers": [
-                {
-                    "name": "Anthony Pena",
-                    "link": "_Anthony_Pena",
-                    "image": "https://avatars.githubusercontent.com/u/2668904?v=4"
-                }
-            ]
+          "name": "Alexis Lozano",
+          "link": "alexislozano__"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Tu es sûr·e que tu veux optimiser ton code ?",
+      "description": "Ah, l'optimisation ! Tout le monde en parle, beaucoup s'y essayent, nombreux sont ceux qui s'y embourbent... Quand quelqu'un me dit : 'Hé mais on pourrait optimiser ça !' J'ai très souvent envie de répondre : 'T'es sûr·e que tu veux optimiser ?' Optimiser, ce n'est pas un but en soi. Optimiser, ce n'est pas facile. Optimiser, ça peut prendre beaucoup de temps. Ça peut même être une tâche sans fin si on ne s'y prend pas comme il faut. Dans cette conférence, on se demandera si on a vraiment besoin d'optimiser et on verra les principes, les stratégies, les astuces, pour que le succès soit au rendez-vous.",
+      "speakers": [
+        {
+          "name": "Pierre Gradot"
+        }
+      ]
+    }
+  ]
 }

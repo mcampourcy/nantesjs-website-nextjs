@@ -1,0 +1,36 @@
+{
+  "id": 73,
+  "status": "done",
+  "title": "Meetup #73",
+  "date": "26/01/2023",
+  "image": "rust.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/billets-meetup-69-516238351807",
+  "remote": true,
+  "hosting": 36,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Le langage Rust pour un dev web : Rust et JavaScript, une histoire d’amour ?",
+      "description": "Depuis sa sortie en 2016, Rust a été adopté par les plus grandes entreprises de la tech : Meta, Amazon, Microsoft, Google, Cloudflare… Alliant les performances du C et la syntaxe et la sûreté des langages de haut-niveau, Rust colonise peu à peu tous les champs du Web : frameworks serveur avec Actix, bundling et compilation de projets JavaScript/TypeScript avec SWC, runtime avec Deno et protocole HTTP 3 avec Quiche ! Cette conférence se propose d’explorer les features les plus intéressantes de Rust et l’usage qui peut être fait de ce langage pour un développeur JavaScript.",
+      "speakers": [
+        {
+          "name": "Léo"
+        }
+      ]
+    },
+    {
+      "title": "Enrichir son application web sans toucher au code source, c'est possible grâce au nouveau standard Web Extension API !",
+      "description": "Aujourd'hui, les extensions web sont connues mais finalement peu utilisées car jugées trop liées au navigateur. A travers ce talk, nous vous proposons de vous présenter ce nouveau standard adopté par tous les navigateurs modernes. On va ENFIN pouvoir mutualiser nos outils et enrichir nos applications. Ce talk vous présentera donc un standard du web ainsi que des uses-cases concrets pouvant être utilisés dans un contexte professionnel.",
+      "speakers": [
+        {
+          "name": "Anthony Pena",
+          "link": "_Anthony_Pena"
+        },
+        {
+          "name": "Adrien Lasselle",
+          "link": "AdrienLASSELLE"
+        }
+      ]
+    }
+  ]
+}

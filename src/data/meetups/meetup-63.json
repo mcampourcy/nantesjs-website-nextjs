@@ -1,0 +1,33 @@
+{
+  "id": 63,
+  "status": "done",
+  "title": "Meetup #63",
+  "date": "17/06/2021",
+  "image": "chaosmonkey.png",
+  "ticketsUrl": "https://youtu.be/KdlFYaDceak",
+  "remote": true,
+  "hosting": 33,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Art & Entropie: Du chaos ton frontend",
+      "description": "Tendance du moment, le Chaos Engineering consiste à étudier le comportement d&'un système face à des évènements externes souvent peu probables, mais ici provoqués (crash d&'un serveur ou load-balancer, perte du DNS, ...) Le désordre ainsi généré apporte de nombreux enseignements sur le fonctionnement de nos systèmes, nous permettant par la suite d&'améliorer leurs robustesses. Mais étrangement, tous les livres, talks, tutoriels parlant de Chaos Engineering oublient un composant important de nos systèmes. Et pourtant, si il y a bien un périmètre dont l&'imprévisibilité, l&'incohérence, et le besoin de résilience est au centre des préoccupations, il s&'agit bien du frontend. 💥Chaos, frontend, art ancestral japonais 👘: 3 notions qui n’ont à priori rien à voir, mais qui ensemble ouvrent de nouvelles perspectives dans le développement de nos applications.",
+      "speakers": [
+        {
+          "name": "Thibaud Courtoison",
+          "link": "Errorname_"
+        }
+      ]
+    },
+    {
+      "title": "Recoder Paint en 2021 ? Rien de plus simple avec React et Canvas !",
+      "description": "Avec un collègue, nous avons développé sur notre temps libre un jeu web, Passe un Dessin [passeundessin.com](https://passeundessin.com/), basé sur le jeu de société Esquissé. Le jeu est un mélange de Pictionnary et de téléphone arabe. Un des challenges que j&'ai rencontré est de coder une librairie de dessin qui reprenait les fonctionnalité principales d&'un moteur de dessin comme Paint. Ainsi j'ai développé des features pour tracer des traits à la souris, remplir une zone à l'intérieur d&'un contour, annuler un trait précédent, etc... Et tout ça avec l&'élément html canvas. A la fin du talk, vous saurez comment créer une librairie de dessin en front et vous connaitrez quelques pièges à éviter !",
+      "speakers": [
+        {
+          "name": "Quentin Somerville",
+          "link": "QuentinSomervi1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 69,
+  "status": "done",
+  "title": "Meetup #69",
+  "date": "19/05/2022",
+  "image": "graphile.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/billets-meetup-66-338095702347",
+  "remote": true,
+  "hosting": 15,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Graphile: Et si le meilleur ORM était de ne pas utiliser d'ORM?",
+      "description": "Trouver un ORM en JavaScript est une tâche difficile. Parmi les quelques bibliothèques disponibles, dénicher la perle rare peut prendre du temps: validation, sécurité, typage fort, verbosité, tout ces facteurs entrent en compte. Et si le meilleur ORM était en fin de compte de ne pas utiliser d'ORM? Entre Graphile, un framework Node qui se propose d'exposer une base de donnée via GraphQL sans avoir à écrire le moindre code JS - ou presque. Est-ce vraiment possible? En pratique, quels sont les avantages et les inconvénients? Retour d'expérience sur une technologie pour le moins novatrice 🙂",
+      "speakers": [
+        {
+          "name": "Maël Nison",
+          "link": "arcanis"
+        }
+      ]
+    },
+    {
+      "title": "Zx vs &|> ? Wireit vs make ? CLI sauce google",
+      "description": "Google a sorti 2 outils de script : wireit et zx. Make vs wireit? Zx vs &|> ?",
+      "speakers": [
+        {
+          "name": "Sylvain Bannier",
+          "link": "bannier"
+        }
+      ]
+    }
+  ]
+}

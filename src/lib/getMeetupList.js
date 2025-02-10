@@ -20,11 +20,21 @@ export function getMeetupListByYear(year = currentYear) {
     throw new Error(`Invalid year provided: ${year}`)
   }
 
-  const meetupList = getMeetupList()
+  const meetupListComplete = getMeetupList()
+  const meetupList = getMeetupListFromCurrentAndPastYear({ meetupListComplete, year })
 
-  return meetupList
-    .filter((meetup) => meetup.date && getYear(new Date(meetup.date)) === year)
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
+  return meetupList.sort((a, b) => new Date(b.date) - new Date(a.date))
+}
+
+function getMeetupListFromCurrentAndPastYear({ meetupListComplete, year }) {
+  let list = []
+  list = meetupListComplete.filter(
+    (meetup) => meetup.date && getYear(new Date(meetup.date)) === year
+  )
+  if (!list.length) {
+    list = getMeetupListFromCurrentAndPastYear({ meetupListComplete, year: year - 1 })
+  }
+  return list
 }
 
 /**

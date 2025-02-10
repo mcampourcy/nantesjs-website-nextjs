@@ -1,0 +1,33 @@
+{
+  "id": 65,
+  "status": "done",
+  "title": "Meetup #65",
+  "date": "28/10/2021",
+  "image": "logotype.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/meetup-62-tickets-195742359667",
+  "remote": true,
+  "hosting": 33,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Zero erreurs runtime en maitrisant TypeScript",
+      "description": "Typescript s’est imposé comme le meilleur superset de typage pour Javascript. Pendant 1 an et demi de construction d’applications complexes en frontend, j’ai eu le temps d’explorer les options et possibilités que Typescript offre aux développeurs. J’ai donc particulièrement envie de partager avec d&#x27;autres développeurs les apprentissages clés que j’ai pu récolter, pour améliorer leur productivité. Venez découvrir comment écrire de meilleurs types, comprendre clairement le fonctionnement de Typescript et améliorer votre typage sur vos projets en cours ou à venir!",
+      "speakers": [
+        {
+          "name": "Hadrien Lucas",
+          "link": "LucasHadrien"
+        }
+      ]
+    },
+    {
+      "title": "Bien démarrer avec les expressions régulières",
+      "description": "Les expressions rationnelles (_regular expressions_ en anglais) sont un sujet face auquel nous ne sommes en général pas rassuré(e). Et fort à raison : il s’agit en fait d’un langage dans le langage, avec une syntaxe horriblement atypique. Mais la maîtrise de quelques rudiments vous rendra bien des services, aussi bien dans votre code JavaScript que pour des recherches de texte un peu complexes dans votre IDE ou votre shell. Le but de cette présentation n’est pas de faire de vous un(e) expert(e) du sujet, mais de vous permettre d’intégrer ces formidables outils à votre quotidien, voire même d’en tirer du fun.",
+      "speakers": [
+        {
+          "name": "Yann Picard de Muller",
+          "link": "YannPdeM"
+        }
+      ]
+    }
+  ]
+}

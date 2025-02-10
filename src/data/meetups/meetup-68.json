@@ -1,0 +1,32 @@
+{
+  "id": 68,
+  "status": "done",
+  "title": "Meetup #68",
+  "date": "21/04/2022",
+  "image": "node.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/billets-meetup-65-317548364707",
+  "remote": true,
+  "hosting": 12,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Réparer les fuites mémoire NodeJS : ma première expérience de plombier",
+      "description": "Les langages haut niveau tels Javascript, Python ou Java abstraient la gestion de la mémoire, si bien que le développeur moderne n’a plus à se soucier de l’allocation et la destruction des ressources. Ce n’est pas la fin des fuites mémoires pour autant ! Il y a peu, j’ai dû faire face à des conteneurs managés par AWS ECS qui redémarraient en permanence. Sous le prisme de cette expérience, je vous raconte dans cette présentation : comment mettre en évidence différentes fuites mémoires, quelles solutions mettre en place pour les corriger. À la fin du talk, vous aurez des outils pour déceler et debugguer des fuites mémoires sur un serveur NodeJs.",
+      "speakers": [
+        {
+          "name": "Guillaume Égée",
+          "link": "EGuiyom"
+        }
+      ]
+    },
+    {
+      "title": "(Dé)coder l'écosystème Cypress",
+      "description": "Familier avec Cypress mais désireux d'en découvrir plus ? Mettez votre casquette de forestier, car on va élaguer les couches successives de Cypress pour parler en détail de tests avec les tests de composants, mock, tests mobiles, BDD Gherkin, intégrations et automatisation avec la dernière version de Squash... et plus encore. Retour d'expérience et astuces au programme.",
+      "speakers": [
+        {
+          "name": "Nicolas Augereau"
+        }
+      ]
+    }
+  ]
+}

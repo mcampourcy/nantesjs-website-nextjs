@@ -1,13 +1,13 @@
 {
-  "id": 46,
+  "id": 71,
   "type": "meetup-hero",
   "status": "done",
   "title": "Le meetup dont vous êtes le héros",
-  "date": "18/07/2019",
+  "date": "22/09/2022",
   "image": "casque.png",
-  "ticketsUrl": "https://www.eventbrite.fr/e/billets-le-meetup-dont-vous-etes-le-heros-5-668624733577",
+  "ticketsUrl": "https://www.eventbrite.fr/e/billets-le-meetup-dont-vous-etes-le-heros-4-416828714907",
   "hosting": 2,
-  "sponsor": 23,
+  "sponsor": 1,
   "talks": [
     {
       "description": [

@@ -1,0 +1,33 @@
+{
+  "id": 64,
+  "status": "done",
+  "title": "Meetup #64",
+  "date": "16/09/2021",
+  "image": "logotype.png",
+  "ticketsUrl": "https://youtu.be/WXCXDrVRO7Y",
+  "remote": true,
+  "hosting": 33,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "Splitting the view and the brains in JS using state machines",
+      "description": "En tant que développeur frontend, on est souvent confrontés à de la gestion de state. Cette gestion est connue pour être rapidement difficile, surtout lorsque l'application grandie : l'état initial, les états non-attendus, les races-conditions, sont autant de raisons d'apparition de bugs. Il existe de nombreuses solutions de gestion de l'état, l'une d'elle étant méconnue : les machines à état. En utilisant des machines à état (ou 'state machines'), on retire la gestion de l'état du composant (UI) pour le déplacer vers une machine dont la seule responsabilité est de maintenir un état déterministe et une logique métier ou spécifique à l'application. Les machines à états sont reconnues comme des modèles computationnel et des abstractions fiables, mais ne sont que rarement utilisées dans des applications frontend. Elles sont cependant une solution élégante pour gérer l'état d'une application (ou une sous-partie), tout en ayant l'avantage d'être framework-agnostique.",
+      "speakers": [
+        {
+          "name": "Aurélien Meunier",
+          "link": "aumeunier"
+        }
+      ]
+    },
+    {
+      "title": "Angular, Vue, React ... et si au final on s'en fichait ?",
+      "description": "Quand on travaille sur un projet web, on a de très grandes chances de tomber sur Angular, Vue ou React. Ces frameworks sont très présents et ont fait leur preuve sur de nombreux projets. Au point qu'aujourd'hui, on ne recherche plus un développeur JS, on recherche un développeur Angular ou React. Si je te disais qu'au final le framework que tu utilises n'a que très peu d'importance. Si je te disais que tu te sous estimes en pensant n'être qu'un développeur React ? En quelques minutes, je te montrerai que tu sais faire bien plus qu'utiliser un seul framework",
+      "speakers": [
+        {
+          "name": "Jimmy Kasprzak",
+          "link": "JimmyKasprzak"
+        }
+      ]
+    }
+  ]
+}

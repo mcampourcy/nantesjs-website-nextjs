@@ -1,0 +1,35 @@
+{
+  "id": 75,
+  "status": "done",
+  "title": "Meetup #75",
+  "date": "16/03/2023",
+  "image": "react.svg",
+  "ticketsUrl": "https://www.eventbrite.fr/e/billets-meetup-71-564657093567",
+  "remote": true,
+  "hosting": 12,
+  "sponsor": 12,
+  "talks": [
+    {
+      "title": "Le Starter dont je suis le héros",
+      "description": "Toi aussi tu aimes React (ou pas 😅) ? Mais choisir les bonnes librairies et connaître les bonnes pratiques pour un projet qui va en production c’est pas toujours facile. En effet, l’éco-système React est l’un des plus riches, amenant plus d’un héros à se perdre dans cette jungle d’options. On aurait tous aimé pouvoir arriver directement à la bonne solution. Aujourd’hui on vous propose de détailler les choix techniques et les bonnes pratiques qu’on a mis en place sur 🚀 Start UI, notre starter de projets d’application web à plus de 500 stars. L’aventure Start UI est le résultat de plusieurs années d’expérimentation sur des projets en production dont nous avons extrait le meilleur. Conférence 100% subjective mais conférence 100% retour d’expérience sur un starter de projet Open Source.",
+      "speakers": [
+        {
+          "name": "Yoann Fleury",
+          "link": "yoannfleurydev"
+        },
+        {
+          "name": "Hugo Pérard"
+        }
+      ]
+    },
+    {
+      "title": "Faites entrer le BDD",
+      "description": "Le Behavior Driven Development est une pratique encore mal comprise et trop souvent abordée à l’envers. Les équipes, obnubilées par l’aspect technique en oublie que le BDD est d‘abord une histoire de communication et de partage. A travers ce meetup, nous retracerons son histoire et ses pratiques afin de mieux comprendre son cadre d’utilisation et son intérêt.",
+      "speakers": [
+        {
+          "name": "Laurent Mangin"
+        }
+      ]
+    }
+  ]
+}

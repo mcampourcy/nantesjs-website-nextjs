@@ -10,7 +10,6 @@
     "sponsor": 15,
     "talks": [
         {
-            "id": "6cdee27c-cfb3-4f62-991a-27057a8af37c",
             "description": [
                 {
                     "label": "Réunissez votre tribu",
@@ -32,7 +31,6 @@
             "final": "Et finalement racontez vos aventures autour d'une bonne flambée et d'un godet !",
             "speakers": [
                 {
-                    "id": "eaa2aa1e-21ea-4b1a-b931-a56165d29911",
                     "name": "Vous"
                 }
             ]
