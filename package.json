@@ -13,31 +13,31 @@
     "generate:posters": "node src/scripts/generatePosterForNewMeetups"
   },
   "dependencies": {
-    "@eslint/js": "^9.16.0",
+    "@eslint/js": "^9.20.0",
     "classnames": "^2.5.1",
     "date-fns": "^4.1.0",
     "leaflet": "^1.9.4",
-    "next": "^15.0.4",
+    "next": "^15.1.6",
     "node-html-to-image": "^5.0.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-feather": "^2.0.10",
-    "react-leaflet": "v5.0.0-rc.1"
+    "react-leaflet": "^5.0.0"
   },
   "devDependencies": {
-    "@eslint/json": "^0.8.0",
-    "@next/eslint-plugin-next": "^15.0.4",
+    "@eslint/json": "^0.10.0",
+    "@next/eslint-plugin-next": "^15.1.6",
     "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.1.0",
+    "@testing-library/react": "^16.2.0",
     "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^9.16.0",
-    "eslint-config-next": "^15.0.4",
-    "eslint-plugin-react": "^7.37.2",
+    "eslint": "^9.20.0",
+    "eslint-config-next": "^15.1.6",
+    "eslint-plugin-react": "^7.37.4",
     "jest-axe": "^9.0.0",
-    "jsdom": "^25.0.1",
-    "prettier": "^3.4.2",
-    "stylelint": "^16.11.0",
-    "stylelint-config-standard": "^36.0.1",
-    "vitest": "^2.1.8"
+    "jsdom": "^26.0.0",
+    "prettier": "^3.5.0",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^37.0.0",
+    "vitest": "^3.0.5"
   }
 }

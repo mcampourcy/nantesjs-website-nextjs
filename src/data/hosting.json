@@ -85,7 +85,13 @@
     },
     {
         "name": "Zenika Nantes",
-        "id": 12
+        "id": 37,
+        "link": "https://zenika.com/agency/nantes",
+        "postalCode": "44200",
+        "address": "2ter Quai François Mitterrand",
+        "city": "Nantes",
+        "latitude": 47.207379655978336,
+        "longitude": -1.555865637767108
     },
     {
         "name": "Lengow",

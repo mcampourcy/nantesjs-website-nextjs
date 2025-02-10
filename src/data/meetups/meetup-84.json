@@ -1,0 +1,33 @@
+{
+  "id": 80,
+  "status": "next",
+  "title": "Meetup #80",
+  "date": "20/02/2025",
+  "image": "angular2.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/billets-meetup-80-1246453549119",
+  "hosting": 37,
+  "sponsor": 1,
+  "talks": [
+    {
+      "title": "L'éco-conception avec Angular grâce aux injections de dépendance",
+      "description": "L’injection de dépendances (DI) est un pilier fondamental d’Angular, facilitant la modularité, la testabilité et la maintenance du code. Mais au-delà de ses avantages techniques, la DI peut aussi jouer un rôle clé dans l’éco-conception des applications web. Dans un contexte où l’éco-conception devient un enjeu majeur, il est essentiel de repenser nos pratiques de développement pour créer des applications plus sobres en ressources et plus respectueuses de l’environnement. Dans cette présentation, nous explorerons comment combiner la DI avec des composants réutilisables dynamiques, comme des modales capables d’afficher n’importe quel contenu à la volée.",
+      "speakers": [
+        {
+          "name": "Alexandre Richard",
+          "image": "https://lh3.googleusercontent.com/a/ACg8ocL2YcYGWmbH45E3Dc2YWYoEM7ZwQbtQVd8DauCDk6lOqnxFKBOI=s96-c"
+        }
+      ]
+    },
+    {
+      "title": "HTMX en prod, retour d'expérience",
+      "description": "Mon dernier projet a utilisé la librairie HTMX, je vous dis tout !",
+      "speakers": [
+        {
+          "name": "Aleth Gueguen",
+          "link": "pl4n3th",
+          "image": "https://avatars0.githubusercontent.com/u/6920364?v=4"
+        }
+      ]
+    }
+  ]
+}
