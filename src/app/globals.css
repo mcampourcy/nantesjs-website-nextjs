@@ -32,6 +32,7 @@ h6 {
 
 h1 {
     font-size: 3rem;
+    margin-top: 2rem;
 }
 
 a {
@@ -60,9 +61,4 @@ ul {
 
 .block-fullwidth:nth-child(even) {
     background-color: var(--color-medium-grey);
-}
-
-.previous-years {
-    display: flex;
-    gap: 1rem;
 }

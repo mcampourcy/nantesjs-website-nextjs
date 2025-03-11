@@ -1,5 +1,5 @@
 import { getMeetupList, getMeetupListByYear } from '@/lib'
-import { PreviousMeetup } from '@/app/components'
+import { PreviousMeetup, PreviousYears } from '@/app/components'
 import { MainSection } from '@/app/(layout)/index.js'
 
 export async function generateStaticParams() {
@@ -33,6 +33,7 @@ export default async function YearPage({ params }) {
     <>
       <MainSection>
         <h1>Meetups pour l&#39;année {year}</h1>
+        <PreviousYears currentYear={year} />
       </MainSection>
       {meetupList.map((meetup) => (
         <PreviousMeetup key={meetup.id} meetup={meetup} />
