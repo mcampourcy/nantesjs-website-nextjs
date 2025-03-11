@@ -1,12 +1,9 @@
-import Link from 'next/link'
-import { getPastMeetupYears, getMeetupListByYear } from '@/lib'
-import { Meetup, PreviousMeetup, Sponsors } from '@/app/components'
+import { getMeetupListByYear } from '@/lib'
+import { Meetup, PreviousMeetup, PreviousYears, Sponsors } from '@/app/components'
 import { MainSection } from '@/app/(layout)'
 
 export default function Page() {
   const [nextMeetup, ...meetupList] = getMeetupListByYear()
-
-  const previousYears = getPastMeetupYears()
 
   return (
     <>
@@ -25,12 +22,8 @@ export default function Page() {
       <MainSection>
         <h2>Consulter les évènements des autres années</h2>
       </MainSection>
-      <MainSection className="previous-years">
-        {previousYears.map((year) => (
-          <Link key={year} href={`/year/${year}`}>
-            {year}
-          </Link>
-        ))}
+      <MainSection>
+        <PreviousYears />
       </MainSection>
     </>
   )

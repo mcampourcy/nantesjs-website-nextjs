@@ -1,16 +1,9 @@
 nav > ul {
     display: flex;
+    gap: 0.4rem;
     justify-content: flex-end;
     list-style: none;
     padding-bottom: 0.5rem;
-}
-
-nav > ul > li {
-    margin-right: 10px;
-}
-
-nav > ul > li:last-child {
-    margin-right: 0;
 }
 
 nav > ul > li > a {
