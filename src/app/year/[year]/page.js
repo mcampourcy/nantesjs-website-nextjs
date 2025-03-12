@@ -1,6 +1,6 @@
 import { getMeetupList, getMeetupListByYear } from '@/lib'
 import { PreviousMeetup, PreviousYears } from '@/app/components'
-import { MainSection } from '@/app/(layout)/index.js'
+import { MainSection } from '@/app/(layout)'
 
 export async function generateStaticParams() {
   const meetupList = getMeetupList()

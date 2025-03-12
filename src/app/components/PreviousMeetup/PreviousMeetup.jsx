@@ -1,4 +1,3 @@
-import { Youtube } from 'react-feather'
 import Image from 'next/image'
 import Link from 'next/link'
 import { MeetupDate } from '@/app/components'

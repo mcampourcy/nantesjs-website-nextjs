@@ -14,7 +14,6 @@ export function getPastMeetupYears() {
     .map((meetup) => {
       return meetup.date ? meetup.date.getFullYear() : null
     })
-    .filter((year) => year && year !== currentYear)
 
   return [...new Set(previousYears)].sort((a, b) => b - a)
 }
