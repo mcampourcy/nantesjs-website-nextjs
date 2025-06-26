@@ -11,3 +11,10 @@
     max-width: 100%;
     width: auto;
 }
+
+@media (max-width: 576px) {
+    .sponsors {
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+        padding: 0.5rem;
+    }
+}

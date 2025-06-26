@@ -28,3 +28,19 @@
     text-orientation: upright;
     writing-mode: vertical-rl;
 }
+
+@media (max-width: 576px) {
+    .meetup-date > span {
+        flex-direction: row;
+    }
+
+    .meetup-date .day {
+        line-height: initial;
+    }
+
+    .meetup-date .year {
+        letter-spacing: normal;
+        text-orientation: initial;
+        writing-mode: initial;
+    }
+}

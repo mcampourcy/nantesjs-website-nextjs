@@ -1,4 +1,5 @@
 import { format, getDate, getYear } from 'date-fns'
+import { fr } from 'date-fns/locale'
 import './MeetupDate.css'
 
 /**
@@ -6,8 +7,8 @@ import './MeetupDate.css'
  */
 
 export function MeetupDate({ date }) {
-  const formattedDate = format(date, 'yyyy-MM-dd')
-  const formattedMonth = format(date, 'MMM.')
+  const formattedDate = format(date, 'yyyy-MM-dd', { locale: fr })
+  const formattedMonth = format(date, 'MMM', { locale: fr })
 
   return (
     <time className="meetup-date" dateTime={formattedDate}>
