@@ -1,25 +1,24 @@
 .previous-years ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: start;
-    list-style: none;
-    padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: start;
+  list-style: none;
+  padding-left: 0;
 }
 
-
 .previous-years ul > li > a {
-    align-items: center;
-    border-bottom: 2px solid transparent;
-    border-top: 2px solid transparent;
-    display: flex;
-    padding: 0.5rem;
-    text-decoration: none;
-    transition: border-bottom-color 500ms ease;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+  display: flex;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: border-bottom-color 500ms ease;
 }
 
 /* Active and hover state for links */
 .previous-years ul > li > a.active,
 .previous-years ul > li > a:hover {
-    border-bottom-color: var(--color-dark-grey);
+  border-bottom-color: var(--color-dark-grey);
 }

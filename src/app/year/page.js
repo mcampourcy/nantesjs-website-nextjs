@@ -10,7 +10,7 @@ export default async function Page() {
         <h2>Consulter les évènements des autres années</h2>
       </MainSection>
       <MainSection>
-        <PreviousYears currentYear={currentYear}/>
+        <PreviousYears currentYear={currentYear} />
       </MainSection>
     </>
   )

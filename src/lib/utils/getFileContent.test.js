@@ -13,10 +13,7 @@ const invalidFilename = null
 describe('getFileContent', () => {
   beforeEach(() => {
     fs.mkdirSync(testDirectory, { recursive: true })
-    fs.writeFileSync(
-      path.join(testDirectory, `${testFilename}.json`),
-      JSON.stringify(testFileContent)
-    )
+    fs.writeFileSync(path.join(testDirectory, `${testFilename}.json`), JSON.stringify(testFileContent))
   })
 
   afterEach(() => {

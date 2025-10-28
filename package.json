@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22.21.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "lint": "next lint",
+    "lint": "eslint .",
     "stylelint": "stylelint \"**/*.css\"",
     "start": "next start",
     "test": "vitest",
@@ -16,28 +19,28 @@
     "classnames": "^2.5.1",
     "date-fns": "^4.1.0",
     "leaflet": "^1.9.4",
-    "next": "^15.4.7",
+    "next": "^16.0.0",
     "node-html-to-image": "^5.0.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-feather": "^2.0.10",
     "react-leaflet": "^5.0.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.29.0",
-    "@eslint/json": "^0.12.0",
-    "@next/eslint-plugin-next": "^15.3.4",
-    "@testing-library/jest-dom": "^6.6.3",
+    "@eslint/js": "^9.38.0",
+    "@eslint/json": "^0.13.2",
+    "@next/eslint-plugin-next": "^16.0.0",
+    "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
-    "@vitejs/plugin-react": "^4.6.0",
-    "eslint": "^9.29.0",
-    "eslint-config-next": "^15.3.4",
+    "@vitejs/plugin-react": "^5.1.0",
+    "eslint": "^9.38.0",
+    "eslint-config-next": "^16.0.0",
     "eslint-plugin-react": "^7.37.5",
     "jest-axe": "^10.0.0",
-    "jsdom": "^26.1.0",
-    "prettier": "^3.6.1",
-    "stylelint": "^16.21.0",
-    "stylelint-config-standard": "^38.0.0",
-    "vitest": "^3.2.4"
+    "jsdom": "^27.0.1",
+    "prettier": "^3.6.2",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard": "^39.0.1",
+    "vitest": "^4.0.4"
   }
 }

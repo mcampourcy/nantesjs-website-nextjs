@@ -19,12 +19,8 @@ export function getMeetupById({ id }) {
     return {
       ...meetup,
       date: parseDateFromString(meetup.date),
-      sponsor:
-                sponsors.find((sponsor) => sponsor.id === meetup.sponsor) ||
-                null,
-      hosting:
-                hostings.find((hosting) => hosting.id === meetup.hosting) ||
-                null,
+      sponsor: sponsors.find((sponsor) => sponsor.id === meetup.sponsor) || null,
+      hosting: hostings.find((hosting) => hosting.id === meetup.hosting) || null,
     }
   }
 }

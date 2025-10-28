@@ -28,9 +28,7 @@ export function getMeetupListByYear(year = currentYear) {
 
 function getMeetupListFromCurrentAndPastYear({ meetupListComplete, year }) {
   let list = []
-  list = meetupListComplete.filter(
-    (meetup) => meetup.date && getYear(new Date(meetup.date)) === year
-  )
+  list = meetupListComplete.filter((meetup) => meetup.date && getYear(new Date(meetup.date)) === year)
   if (!list.length) {
     list = getMeetupListFromCurrentAndPastYear({ meetupListComplete, year: year - 1 })
   }

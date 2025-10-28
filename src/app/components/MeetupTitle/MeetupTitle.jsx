@@ -12,14 +12,7 @@ export function MeetupTitle({ meetup }) {
 
   return (
     <div className="meetup-title">
-      {image && (
-        <Image
-          src={`/images/meetups/${image}`}
-          alt=""
-          width={100}
-          height={100}
-        />
-      )}
+      {image && <Image src={`/images/meetups/${image}`} alt="" width={100} height={100} />}
 
       <section>
         <h1>{title}</h1>

@@ -1,39 +1,39 @@
 {
-    "id": 80,
-    "status": "done",
-    "title": "Meetup #80",
-    "date": "16/11/2023",
-    "image": "angular2.png",
-    "ticketsUrl": "https://www.eventbrite.fr/e/billets-meetup-76-750627867157",
-    "hosting": 3,
-    "sponsor": 1,
-    "talks": [
+  "id": 80,
+  "status": "done",
+  "title": "Meetup #80",
+  "date": "16/11/2023",
+  "image": "angular2.png",
+  "ticketsUrl": "https://www.eventbrite.fr/e/billets-meetup-76-750627867157",
+  "hosting": 3,
+  "sponsor": 1,
+  "talks": [
+    {
+      "id": "db6418ee-bc89-4fba-b08d-5404a03fe3ed",
+      "title": "Les micro frontend chez allianz",
+      "description": "Depuis 1 an, un groupe de travail d'architecte, techlead et développeur, collaborent autour du sujet des micros frontend chez Allianz. Durant ce talk, je vous montrerai et décrirai notre cheminement de simple SPA aux Micro Frontend : - L'existant - Les Multi et Mono repo -Sécurité et Micro frontend - Nos points de blocage et difficultés - Nos Réussites - Conclusions",
+      "speakers": [
         {
-            "id": "db6418ee-bc89-4fba-b08d-5404a03fe3ed",
-            "title": "Les micro frontend chez allianz",
-            "description": "Depuis 1 an, un groupe de travail d'architecte, techlead et développeur, collaborent autour du sujet des micros frontend chez Allianz. Durant ce talk, je vous montrerai et décrirai notre cheminement de simple SPA aux Micro Frontend : - L'existant - Les Multi et Mono repo -Sécurité et Micro frontend - Nos points de blocage et difficultés - Nos Réussites - Conclusions",
-            "speakers": [
-                {
-                    "id": "0d8ddb01-adb9-4df5-acc7-2abe1326844f",
-                    "name": "Fabien Brunet",
-                    "link": "linktogo_fr"
-                }
-            ]
+          "id": "0d8ddb01-adb9-4df5-acc7-2abe1326844f",
+          "name": "Fabien Brunet",
+          "link": "linktogo_fr"
+        }
+      ]
+    },
+    {
+      "id": "eca14bb3-966f-4d98-a6e8-3cb336969ade",
+      "title": "Ils migrent leur code base Angular vers un Mono-Repo 'Nx', vous ne devinerez jamais ce qui leur est arrivé !",
+      "description": "Envie de plus de fluidité dans la factorisation votre code afin de garantir la cohérence métier et visuelle de votre plateforme ? Ce talk va vous présenter notre retour d'expérience sur la migration d'une partie de notre code base vers un mono-repo Nx. Nous présenterons quelles sont les raisons qui nous ont décidés à effectuer cette migration et les bénéfices que cela nous apporte. Mais comme tout bénéfice, ceux-ci viennent grâce à un investissement fait en amont. Nous allons donc aussi vous présenter les difficultés et les contraintes que cela amène, autant en termes d'organisation de code mais aussi en termes d'organisation d'équipe.",
+      "speakers": [
+        {
+          "id": "57d4d9a1-6e68-4b88-8c65-ece7d56ca9d4",
+          "name": "Jean Tallineau"
         },
         {
-            "id": "eca14bb3-966f-4d98-a6e8-3cb336969ade",
-            "title": "Ils migrent leur code base Angular vers un Mono-Repo 'Nx', vous ne devinerez jamais ce qui leur est arrivé !",
-            "description": "Envie de plus de fluidité dans la factorisation votre code afin de garantir la cohérence métier et visuelle de votre plateforme ? Ce talk va vous présenter notre retour d'expérience sur la migration d'une partie de notre code base vers un mono-repo Nx. Nous présenterons quelles sont les raisons qui nous ont décidés à effectuer cette migration et les bénéfices que cela nous apporte. Mais comme tout bénéfice, ceux-ci viennent grâce à un investissement fait en amont. Nous allons donc aussi vous présenter les difficultés et les contraintes que cela amène, autant en termes d'organisation de code mais aussi en termes d'organisation d'équipe.",
-            "speakers": [
-                {
-                    "id": "57d4d9a1-6e68-4b88-8c65-ece7d56ca9d4",
-                    "name": "Jean Tallineau"
-                },
-                {
-                    "id": "7e054d3f-5c8c-478a-97da-71840efcdd1f",
-                    "name": "Vincent Nourry"
-                }
-            ]
+          "id": "7e054d3f-5c8c-478a-97da-71840efcdd1f",
+          "name": "Vincent Nourry"
         }
-    ]
+      ]
+    }
+  ]
 }

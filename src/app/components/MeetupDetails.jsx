@@ -7,10 +7,7 @@ export function MeetupDetails({ meetup }) {
     <>
       {meetup.talks.map((talk, index) => {
         const description = isMeetupHero ? (
-          <MeetupHeroDescription
-            description={talk.description}
-            final={talk.final}
-          />
+          <MeetupHeroDescription description={talk.description} final={talk.final} />
         ) : (
           <p>{talk.description}</p>
         )
@@ -25,9 +22,7 @@ export function MeetupDetails({ meetup }) {
             <section>
               {talk.title && <h2>{talk.title}</h2>}
               {description}
-              {talk.requirements && (
-                <TalkRequirements requirements={talk.requirements} />
-              )}
+              {talk.requirements && <TalkRequirements requirements={talk.requirements} />}
               {talk.video && (
                 <iframe
                   width="560"

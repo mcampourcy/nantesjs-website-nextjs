@@ -16,11 +16,7 @@ export async function Meetup({ meetup }) {
       <MeetupDetails meetup={meetup} />
       {next && (
         <p className="reservation">
-          <Link
-            href={meetup.ticketsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href={meetup.ticketsUrl} target="_blank" rel="noopener noreferrer">
             Réserver votre place
             <ExternalLink />
           </Link>

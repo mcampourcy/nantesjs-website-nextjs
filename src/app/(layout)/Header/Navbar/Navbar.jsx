@@ -7,9 +7,7 @@ import './Navbar.css'
 
 export function Navbar() {
   const currentYear = new Date().getFullYear()
-  const cfpLink =
-        'https://conference-hall.io/public/event/DWIXMKeUnghfgJHerwEh'
-
+  const cfpLink = 'https://conference-hall.io/public/event/DWIXMKeUnghfgJHerwEh'
 
   return (
     <nav>

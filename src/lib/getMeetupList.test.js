@@ -36,7 +36,7 @@ describe('getMeetupList', () => {
         title: mockFile2Contents.title,
         hosting: null,
         sponsor: null,
-      }
+      },
     ])
   })
 

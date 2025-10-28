@@ -17,14 +17,7 @@ export function PreviousMeetup({ meetup }) {
     <MainSection className="previous-meetup">
       <div>
         <MeetupDate date={date} />
-        {image && (
-          <Image
-            src={`/images/meetups/${image}`}
-            alt=""
-            width={100}
-            height={100}
-          />
-        )}
+        {image && <Image src={`/images/meetups/${image}`} alt="" width={100} height={100} />}
       </div>
       <section>
         <h2>
