@@ -10,10 +10,9 @@ const currentYear = new Date().getFullYear()
 export function getPastMeetupYears() {
   const allFilesData = getMeetupList()
 
-  const previousYears = allFilesData
-    .map((meetup) => {
-      return meetup.date ? meetup.date.getFullYear() : null
-    })
+  const previousYears = allFilesData.map((meetup) => {
+    return meetup.date ? meetup.date.getFullYear() : null
+  })
 
   return [...new Set(previousYears)].sort((a, b) => b - a)
 }

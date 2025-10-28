@@ -1,43 +1,43 @@
 .meetup-title {
-    align-items: center;
-    display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .meetup-title h1,
 .meetup-title time .day {
-    font-size: 4.8rem;
-    font-weight: 500;
+  font-size: 4.8rem;
+  font-weight: 500;
 }
 
 .meetup-title p {
-    font-size: 1.6rem;
-    margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
 }
 
 .meetup-title img {
-    height: auto;
-    width: 9rem;
+  height: auto;
+  width: 9rem;
 }
 
 @media (max-width: 576px) {
-    .meetup-title {
-        flex-direction: column;
-        gap: 0;
-        margin-top: 0.5rem;
-    }
+  .meetup-title {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 0.5rem;
+  }
 
-    .meetup-title h1,
-    .meetup-title time .day {
-        font-size: 2rem;
-    }
+  .meetup-title h1,
+  .meetup-title time .day {
+    font-size: 2rem;
+  }
 
-    .meetup-title p {
-        font-size: 1rem;
-    }
+  .meetup-title p {
+    font-size: 1rem;
+  }
 
-    .meetup-title img {
-        display:  none;
-    }
+  .meetup-title img {
+    display: none;
+  }
 }

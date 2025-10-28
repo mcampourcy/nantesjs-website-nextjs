@@ -1,41 +1,41 @@
 nav > ul {
-    display: flex;
-    gap: 0.4rem;
-    justify-content: flex-end;
-    list-style: none;
-    padding-bottom: 0.5rem;
+  display: flex;
+  gap: 0.4rem;
+  justify-content: flex-end;
+  list-style: none;
+  padding-bottom: 0.5rem;
 }
 
 nav > ul > li > a {
-    align-items: center;
-    border-bottom: 3px solid transparent;
-    border-top: 3px solid transparent;
-    display: flex;
-    padding: 0.5rem;
-    text-decoration: none;
-    transition: border-bottom-color 500ms ease;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid transparent;
+  display: flex;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: border-bottom-color 500ms ease;
 }
 
 /* Active and hover state for links */
 nav > ul > li > a.active,
 nav > ul > li > a:hover {
-    border-bottom-color: var(--color-yellow-nantesjs);
+  border-bottom-color: var(--color-yellow-nantesjs);
 }
 
 /* Specific: the CFP link */
 nav > ul > li.cfp-link > a {
-    background-color: var(--color-yellow-nantesjs);
-    color: var(--color-dark-grey);
-    transition:
-        background-color 500ms ease,
-        color 500ms ease;
+  background-color: var(--color-yellow-nantesjs);
+  color: var(--color-dark-grey);
+  transition:
+    background-color 500ms ease,
+    color 500ms ease;
 }
 
 nav > ul > li.cfp-link > a:hover {
-    background-color: transparent;
-    color: var(--color-yellow-nantesjs);
+  background-color: transparent;
+  color: var(--color-yellow-nantesjs);
 }
 
 nav > ul > li.cfp-link > a > svg {
-    margin-left: 0.5rem;
+  margin-left: 0.5rem;
 }

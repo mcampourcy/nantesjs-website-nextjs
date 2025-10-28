@@ -29,13 +29,13 @@ export default function Map({ hosting }) {
       style={{ height: '100%', width: '100%', minHeight: '20rem' }}
     >
       <TileLayer
-        attribution="&amp;copy
-                <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a>
-                &amp;copy <a href=&quot;http://osm.org/copyright&quot;>Mapbox</a>
-                 contributors"
+        attribution='&amp;copy
+                <a href="http://osm.org/copyright">OpenStreetMap</a>
+                &amp;copy <a href="http://osm.org/copyright">Mapbox</a>
+                 contributors'
         url="https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}"
         accessToken={token}
-        id='streets-v9'
+        id="streets-v9"
       />
       <Marker position={position} icon={iconNantesJS}>
         <Popup>

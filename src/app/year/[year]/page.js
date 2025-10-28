@@ -5,9 +5,7 @@ import { MainSection } from '@/app/(layout)'
 export async function generateStaticParams() {
   const meetupList = getMeetupList()
 
-  const availableYearList = meetupList.map((meetup) =>
-    new Date(meetup.date).getFullYear()
-  )
+  const availableYearList = meetupList.map((meetup) => new Date(meetup.date).getFullYear())
 
   const years = new Set(availableYearList)
 

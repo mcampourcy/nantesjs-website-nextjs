@@ -10,9 +10,7 @@ import path from 'path'
  */
 export function getJsonFilenames(directory) {
   try {
-    const jsonFileList = fs
-      .readdirSync(directory)
-      .filter((file) => path.parse(file).ext === '.json')
+    const jsonFileList = fs.readdirSync(directory).filter((file) => path.parse(file).ext === '.json')
 
     return jsonFileList.map((file) => path.parse(file).name)
   } catch (error) {
